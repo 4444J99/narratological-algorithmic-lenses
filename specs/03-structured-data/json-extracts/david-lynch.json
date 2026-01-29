@@ -1,0 +1,300 @@
+{
+  "id": "david-lynch",
+  "creator": "David Lynch",
+  "work": "Mulholland Drive / Twin Peaks / Eraserhead",
+  "category": "Film",
+  "axioms": [
+    {
+      "id": "DL-A0",
+      "name": "The Incoherence Principle",
+      "statement": "I don't know why people expect art to make sense. They accept the fact that life doesn't make sense.",
+      "derivations": [
+        "Narrative logic need not map to waking-life causality",
+        "The demand for 'sense' is itself a category error imposed on art",
+        "Art coherence requirement is false if life structure is incoherent and art reflects life"
+      ]
+    },
+    {
+      "id": "DL-A1",
+      "name": "Ideas as Autonomous Entities",
+      "statement": "The idea is the whole thing. If you stay true to the idea, it tells you everything you need to know.",
+      "derivations": [
+        "Ideas originate from external source (ether/unified field), not the mind",
+        "Ideas arrive complete",
+        "Fidelity to original form is required",
+        "The artist's role is reception and faithful transmission, not construction or invention",
+        "Creative process involves catching ideas from depth through meditation",
+        "Deviation from the idea's original feeling must be rejected"
+      ]
+    },
+    {
+      "id": "DL-A2",
+      "name": "Mood Primacy Over Plot",
+      "statement": "My approach to film stems from my art background, as I go beyond the story to the sub-conscious mood created by sound and images.",
+      "derivations": [
+        "Narrative hierarchy: mood/atmosphere > feeling/intuition > image/sound > character > plot/causality",
+        "Scene acceptance based on target mood match, not plot coherence",
+        "Plot-logical scenes may be rejected if mood is wrong"
+      ]
+    },
+    {
+      "id": "DL-A3",
+      "name": "The Power of Secrets",
+      "statement": "The magic of the discovery is ruined and the film experience, the secret, is killed.",
+      "derivations": [
+        "Revelation status should be withheld",
+        "Power is inversely proportional to explanation",
+        "Explanation density should be low",
+        "Interpretation space should be maximum",
+        "Secrets kept from self enhance power",
+        "Artist understanding should be partial"
+      ]
+    }
+  ],
+  "structural_hierarchy": {
+    "levels": [
+      {
+        "level": 1,
+        "name": "Mood/Atmosphere",
+        "description": "The primary narrative content; atmosphere as structural element rather than decoration",
+        "elements": ["industrial_drone", "badalamenti_jazz", "fifties_pop", "silence"]
+      },
+      {
+        "level": 2,
+        "name": "Feeling/Intuition",
+        "description": "Emotional truth that guides all creative decisions through feel-think navigation",
+        "elements": ["dread", "mystery", "nostalgia_danger", "sacred_horror"]
+      },
+      {
+        "level": 3,
+        "name": "Image/Sound",
+        "description": "Visual and audio elements designed to deliver target feeling",
+        "elements": ["chiaroscuro_lighting", "slow_track", "static_hold", "saturated_color", "velvet_texture", "industrial_texture"]
+      },
+      {
+        "level": 4,
+        "name": "Character",
+        "description": "Characters exist to embody and enact the mood and feeling",
+        "elements": ["split_selves", "doppelgangers", "shadow_possessions", "supernatural_doubles"]
+      },
+      {
+        "level": 5,
+        "name": "Plot/Causality",
+        "description": "Lowest priority; events exist to maintain feeling, not logical sequence",
+        "elements": ["mobius_structure", "dream_logic", "emotional_causality"]
+      }
+    ]
+  },
+  "core_algorithms": [
+    {
+      "name": "Dream Logic Architecture",
+      "purpose": "Implement dream mechanics as narrative grammar through feeling-based causality",
+      "pseudocode": "FUNCTION apply_dream_logic(element): SEVER causal_chain; core_feeling = extract_emotional_content(element); transformed = dream_transform(element) APPLYING temporal_collapse, identity_fluidity, symbolic_literalization WHILE MAINTAINING core_feeling; IF transformed.emotional_resonance == core_feeling THEN ACCEPT ELSE RETRY; RETURN transformed",
+      "inputs": ["narrative_element", "target_emotional_content"],
+      "outputs": ["transformed_element_with_preserved_feeling"]
+    },
+    {
+      "name": "Duality/Doubling System",
+      "purpose": "Create doubles to reveal truth that single identity conceals",
+      "pseudocode": "FUNCTION create_double(character, purpose): IF purpose == ESCAPE_TRAUMA THEN type = SPLIT_SELF; ELIF purpose == EXPLORE_DESIRE THEN type = MIRROR_DOUBLE; ELIF purpose == EXTERNALIZE_EVIL THEN type = SHADOW_POSSESSION; CREATE double WITH same_actor, different_name, inverted_characteristics, fragmented_shared_memories; IF photograph.contains(both_versions) THEN reality FRACTURES; RETURN double",
+      "inputs": ["character", "narrative_purpose"],
+      "outputs": ["double_with_specified_type", "reality_fracture_if_triggered"]
+    },
+    {
+      "name": "Mobius Strip Narrative",
+      "purpose": "Construct infinite loop narrative where ending returns to beginning",
+      "pseudocode": "FUNCTION construct_mobius(narrative): SEGMENT_1 = fantasy/wish with idealized_protagonist; TRANSITION via key_object (blue_box/cabin); SEGMENT_2 = reality/nightmare with damaged_protagonist; RECURSIVE_RETURN loops ending to opening; S1 = INVERSE(S2); S1 + S2 = complete_truth; RETURN mobius_narrative",
+      "inputs": ["narrative_elements", "trauma_trigger"],
+      "outputs": ["infinite_loop_structure", "complete_truth_through_inversion"]
+    },
+    {
+      "name": "Tonal Rupture System",
+      "purpose": "Create meaning through sincere juxtaposition of incompatible tones",
+      "pseudocode": "FUNCTION create_sincere_uncanny(scene): surface_tone = WARMTH/NOSTALGIA/BEAUTY; subsurface_tone = DREAD/VIOLENCE/CORRUPTION; final_tone = HOLD_BOTH(surface, subsurface) SINCERELY; relationship = MUTUAL_INTENSIFICATION; RETURN scene.uncanny_sincere",
+      "inputs": ["scene", "surface_tone", "subsurface_tone"],
+      "outputs": ["scene_with_simultaneous_tones", "mutual_intensification_effect"]
+    },
+    {
+      "name": "Mood Primacy System",
+      "purpose": "Construct sequences where narrative exists to deliver mood, not vice versa",
+      "pseudocode": "FUNCTION construct_sequence(target_mood): feeling = DEFINE(target_mood); sound = CREATE_SOUNDSCAPE(feeling); image = CREATE_VISUAL(feeling); events = WHATEVER_MAINTAINS(feeling); RETURN sequence.delivers(target_mood)",
+      "inputs": ["target_mood"],
+      "outputs": ["sequence_delivering_target_mood"]
+    },
+    {
+      "name": "Symbolic Recurrence",
+      "purpose": "Deploy consistent symbolic vocabulary that accrues meaning across works",
+      "pseudocode": "FUNCTION deploy_symbol(symbol, context): meaning = SYMBOL_LEXICON[symbol].meaning; IF viewer.previous_lynch_exposure THEN resonance = AMPLIFIED AND meaning += accumulated_associations; viewer.conscious_understanding = NOT_REQUIRED; viewer.felt_meaning = TRUE; RETURN symbol.deployed_with(meaning)",
+      "inputs": ["symbol", "context", "viewer_exposure_history"],
+      "outputs": ["deployed_symbol_with_accumulated_meaning"]
+    }
+  ],
+  "diagnostic_questions": [
+    {
+      "id": "Q1",
+      "question": "Does the work prioritize mood/atmosphere over plot coherence?",
+      "valid_if": "Mood is the primary narrative content; plot serves mood"
+    },
+    {
+      "id": "Q2",
+      "question": "Does the work maintain fidelity to the original idea's feeling?",
+      "valid_if": "All elements tested against whether they match the target feeling"
+    },
+    {
+      "id": "Q3",
+      "question": "Does the work preserve mystery by withholding explanation?",
+      "valid_if": "Explanation density is low; interpretation space is maximum"
+    },
+    {
+      "id": "Q4",
+      "question": "Does the work employ dream logic (emotional causality rather than logical sequence)?",
+      "valid_if": "Connections based on emotional resonance, not waking-life causality"
+    },
+    {
+      "id": "Q5",
+      "question": "Does the work use doubling/duality to reveal concealed truth?",
+      "valid_if": "Split selves, mirror doubles, or doppelgangers expose what single identity hides"
+    },
+    {
+      "id": "Q6",
+      "question": "Does the work sincerely hold contradictory tones simultaneously?",
+      "valid_if": "Horror and beauty, innocence and corruption coexist without ironic distance"
+    },
+    {
+      "id": "Q7",
+      "question": "Does the work deploy a consistent symbolic vocabulary?",
+      "valid_if": "Recurring symbols (red curtains, electricity, thresholds) carry accumulated meaning"
+    },
+    {
+      "id": "Q8",
+      "question": "Does time operate non-linearly (simultaneity, loops, collapse)?",
+      "valid_if": "Past/present/future exist simultaneously; Mobius structure possible"
+    }
+  ],
+  "theoretical_correspondences": {
+    "maps_to": [
+      "Tarkovsky: Dream and Memory (shared: dreams as valid reality, non-linear time, actor multiplicity, image as thought)",
+      "Surrealist Cinema Tradition (Breton, Dali, Bunuel): access unconscious, reject rationality, automatic creation",
+      "Bunuel: symbolic literalization, dream logic narrative, sexuality and violence fused",
+      "Freudian/Jungian Unconscious: collective/personal unconscious, nightmare as valid as dream",
+      "Transcendental Meditation: technique for accessing unconscious material"
+    ],
+    "sequence_pairs": [
+      {
+        "lynch": "Dream and Unconscious emphasis",
+        "tarkovsky": "Memory and Time emphasis"
+      },
+      {
+        "lynch": "Juxtaposition, rhythm, rupture",
+        "tarkovsky": "Prolonged gaze, contemplative stillness"
+      },
+      {
+        "lynch": "Dread, uncanny, beauty in horror",
+        "tarkovsky": "Melancholy, elegy, spiritual yearning"
+      },
+      {
+        "lynch": "American mythology/suburbia",
+        "tarkovsky": "Nostalgia, childhood, Russia"
+      },
+      {
+        "lynch": "Transcendental meditation method",
+        "bunuel": "Automatic writing, dream journals method"
+      }
+    ]
+  },
+  "quick_reference": {
+    "core_operations": [
+      "Catch ideas from depth through meditation (not construct them)",
+      "Build mood architecture before plot",
+      "Apply dream logic: emotional causality, temporal collapse, identity fluidity, symbolic literalization",
+      "Create doubles based on narrative purpose (trauma escape, desire exploration, evil externalization)",
+      "Construct Mobius strip narratives (ending loops to beginning)",
+      "Deploy tonal ruptures (sincere juxtaposition of horror/beauty)",
+      "Preserve mystery through minimal explanation",
+      "Test all elements against original feeling",
+      "Use feel-think navigation for creative decisions"
+    ],
+    "key_constraints": [
+      "Never prioritize plot coherence over mood",
+      "Maintain fidelity to original idea feeling",
+      "Explanation kills mystery power",
+      "Both light and dark must be sincere (not ironic)",
+      "Symbols must recur to accumulate meaning",
+      "Dream logic must maintain emotional truth as constant",
+      "Doubling must reveal what single identity conceals",
+      "Threshold spaces must operate with different time/communication rules"
+    ]
+  },
+  "symbol_lexicon": {
+    "red_curtains": {
+      "meaning": "boundary between worlds",
+      "function": "conceals horror / marks threshold",
+      "deployment": ["Red Room", "Club Silencio", "stage performances"]
+    },
+    "electricity": {
+      "meaning": "supernatural intrusion",
+      "markers": ["flickering lights", "power surges", "static"],
+      "function": "medium through which lodge spirits enter mundane world"
+    },
+    "fire": {
+      "meaning": "transformation / destruction / spiritual power",
+      "deployment": ["burning cabin", "match strikes", "industrial flames"]
+    },
+    "coffee": {
+      "meaning": "grounding / ritual / surface innocence",
+      "function": "connection to normal world; ritual against darkness"
+    },
+    "chevron_floor": {
+      "meaning": "spiritual portal / altered space",
+      "origin": "Jean Cocteau's Orphee",
+      "deployment": ["Red Room", "Henry's apartment (Eraserhead)"]
+    },
+    "industrial_machinery": {
+      "meaning": "unconscious forces / body horror / generation",
+      "deployment": ["Eraserhead factory", "radiator", "mechanisms"]
+    },
+    "diner_roadhouse": {
+      "meaning": "threshold between worlds",
+      "function": "ordinary space as portal",
+      "deployment": ["Double R", "Winkie's (Mulholland Drive)", "Roadhouse (Twin Peaks)"]
+    }
+  },
+  "signature_patterns": [
+    {
+      "name": "The Threshold Moment",
+      "structure": "ordinary -> discovery -> entry to other world",
+      "function": "narrative portal",
+      "examples": ["ear in grass", "curtain pulled back", "key turned"]
+    },
+    {
+      "name": "The Impossible Phone Call",
+      "structure": "communication that violates spacetime",
+      "function": "reality fracture marker",
+      "examples": ["Mystery Man calling from your house", "Dick Laurent is dead (from yourself)"]
+    },
+    {
+      "name": "The Performance That Tells Truth",
+      "structure": "staged performance delivers revelation",
+      "function": "truth through entertainment",
+      "examples": ["Julee Cruise at Roadhouse", "Rebekah Del Rio at Club Silencio", "Lady in the Radiator"]
+    },
+    {
+      "name": "The Photograph Evidence",
+      "structure": "photograph reveals impossible truth",
+      "function": "reality break evidence",
+      "examples": ["same woman in two places", "photos that shouldn't exist"]
+    },
+    {
+      "name": "The Cryptic Warning",
+      "structure": "message understood too late",
+      "function": "oracle pattern",
+      "examples": ["It is happening again", "The owls are not what they seem"]
+    },
+    {
+      "name": "The Return That Isn't",
+      "structure": "homecoming that fails",
+      "function": "permanent displacement",
+      "examples": ["Cooper emerges wrong after 25 years", "Fred returns as Pete"]
+    }
+  ]
+}

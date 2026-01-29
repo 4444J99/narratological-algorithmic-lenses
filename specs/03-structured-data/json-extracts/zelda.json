@@ -1,0 +1,302 @@
+{
+  "id": "zelda",
+  "creator": "Nintendo (Shigeru Miyamoto / Eiji Aonuma)",
+  "work": "The Legend of Zelda series",
+  "category": "Interactive",
+  "axioms": [
+    {
+      "id": "ZD-A0",
+      "name": "Exploration IS Narrative",
+      "statement": "The act of spatial discovery constitutes the primary narrative experience; story emerges from traversal rather than being imposed upon it.",
+      "derivations": [
+        "Miyamoto's childhood cave exploration as design genesis",
+        "BotW's gravity design replacing marked paths with distributed attraction points",
+        "Jenkins' concept of spatial stories held together by broadly defined goals and conflicts"
+      ]
+    },
+    {
+      "id": "ZD-A1",
+      "name": "Discovery Over Telling",
+      "statement": "The player must feel they discovered truth rather than being told it; revelation through exploration supersedes exposition through dialogue.",
+      "derivations": [
+        "Original Zelda's deliberate absence of tutorials and hand-holding",
+        "Miyamoto's critique of introducing unnecessary rules in later titles",
+        "BotW's return to the original philosophy after Twilight Princess/Skyward Sword's linearity",
+        "Carson's cause and effect vignettes"
+      ]
+    },
+    {
+      "id": "ZD-A2",
+      "name": "Minimalism in Dialogue, Maximalism in World",
+      "statement": "Verbal/textual narrative elements are sparse; environmental, architectural, and spatial narrative elements are dense.",
+      "derivations": [
+        "Link's silence as player vessel",
+        "BotW's 900 Korok seeds vs. minimal cutscenes",
+        "120 Shrines as spatial puzzle-narratives",
+        "Ruins as cause and effect storytelling"
+      ]
+    },
+    {
+      "id": "ZD-A3",
+      "name": "Eternal Return with Variation",
+      "statement": "Each incarnation of the triadic cycle (Link/Zelda/Ganon) recapitulates the essential pattern while introducing meaningful variation; the familiar made strange, the strange made familiar.",
+      "derivations": [
+        "Skyward Sword's codification of Demise's curse",
+        "Hyrule Historia's timeline establishing reincarnation as canonical mechanism",
+        "Each game's same soul, different body instantiation",
+        "Tolkien-parallel: vistas of yet more legend and history"
+      ]
+    },
+    {
+      "id": "ZD-A4",
+      "name": "Silent Protagonist as Vessel",
+      "statement": "Link functions as a semiotic vessel - a character with enough definition to exist in the world yet enough emptiness to contain the player's projected self.",
+      "derivations": [
+        "Player imagines voice, creates identification",
+        "Archetypal and androgynous appearance for broad appeal",
+        "Personality defined by actions, not words",
+        "Courage shown through gameplay, not dialogue"
+      ]
+    },
+    {
+      "id": "ZD-A5",
+      "name": "Dungeon as Dramatic Act",
+      "statement": "Dungeons function as self-contained dramatic arcs with spatial progression mapping to dramatic structure.",
+      "derivations": [
+        "Spider Body model with central hub and radiating paths",
+        "Item acquisition as midpoint power gain",
+        "Boss chamber as climactic confrontation",
+        "Heart container as denouement reward"
+      ]
+    },
+    {
+      "id": "ZD-A6",
+      "name": "Triangle Rule for Pacing",
+      "statement": "Three scales of triangular structures control narrative pacing through terrain design.",
+      "derivations": [
+        "Large triangles create landmarks and visual markers",
+        "Medium triangles create view blockers to obscure then reveal",
+        "Small triangles create tempo changes in moment-to-moment engagement"
+      ]
+    },
+    {
+      "id": "ZD-A7",
+      "name": "Gravity-Based Player Flow",
+      "statement": "Replace marked paths with attraction points to create organic player navigation.",
+      "derivations": [
+        "Distribute gravity wells based on visibility and intrigue",
+        "Prevent linear paths through well redistribution",
+        "Ensure players orbit rather than beeline through multiple visible attractions"
+      ]
+    },
+    {
+      "id": "ZD-A8",
+      "name": "Glimpsed History (Tolkien Parallel)",
+      "statement": "Create an impression of depth through partial revelation and unexplained artifacts that suggest vast unseen history.",
+      "derivations": [
+        "Ancient ruins with unexplained artifacts",
+        "Old names referenced without explanation",
+        "Recurring motifs echoing across incarnations",
+        "Partial texts offering incomplete records",
+        "NPC legends telling variant stories"
+      ]
+    }
+  ],
+  "structural_hierarchy": {
+    "levels": [
+      {
+        "level": 1,
+        "name": "Cyclical Foundation",
+        "description": "The eternal return structure with triadic curse (Link/Zelda/Ganon reincarnation cycle)",
+        "elements": ["Hero instantiation", "Goddess instantiation", "Demon manifestation", "Core conflict generation"]
+      },
+      {
+        "level": 2,
+        "name": "World as Story",
+        "description": "Environmental narrative through terrain and spatial design",
+        "elements": ["Triangle rule terrain", "Gravity wells distribution", "Embedded history fragments", "Environmental vignettes"]
+      },
+      {
+        "level": 3,
+        "name": "Spatial Progression",
+        "description": "Interleaved overworld exploration and dungeon dramatic arcs",
+        "elements": ["Explorable overworld", "Dungeon dramatic arcs", "Progression interleaving"]
+      },
+      {
+        "level": 4,
+        "name": "Player Agency",
+        "description": "Discovery pacing and meaningful choice structures",
+        "elements": ["Discovery rhythm regulation", "Choice structures", "Emergent systems", "Physics interactions"]
+      },
+      {
+        "level": 5,
+        "name": "Depth and Mystery",
+        "description": "Impression of vast unseen history through partial revelation",
+        "elements": ["Vast backcloth implication", "Recurring motifs", "Partial revelation maintenance"]
+      }
+    ]
+  },
+  "core_algorithms": [
+    {
+      "name": "EVOCATIVE_SPACE",
+      "purpose": "Generate spaces that evoke pre-existing narrative associations through mythic resonance and player memory",
+      "pseudocode": "mythic_resonance = identify_archetype(location.features); player_memory = query_series_history(location); emotional_charge = mythic_resonance * player_memory; return location.atmosphere = emotional_charge",
+      "inputs": ["location", "location.features", "location.name", "location.motifs"],
+      "outputs": ["location.atmosphere (emotional_charge)"]
+    },
+    {
+      "name": "ENACTED_STORY",
+      "purpose": "Structure story around character's movement through space with position-to-narrative-phase mapping",
+      "pseudocode": "current_act = map_position_to_narrative_phase(player_position); obstacles = generate_contextual_challenges(current_act); progression = player.overcome(obstacles); return narrative_advancement(progression)",
+      "inputs": ["player_position", "world_state"],
+      "outputs": ["narrative_advancement"]
+    },
+    {
+      "name": "EMBEDDED_NARRATIVE",
+      "purpose": "Communicate story beats through designed environments with historical traces and cause-effect vignettes",
+      "pseudocode": "for each zone: historical_traces = deposit_artifacts(zone.history); recent_events = stage_cause_effect_vignettes(zone.recent_history); discoverable_texts = place_readable_fragments(zone.lore); return narrative_layer(historical_traces, recent_events, discoverable_texts)",
+      "inputs": ["environment", "zone.history", "zone.recent_history", "zone.lore"],
+      "outputs": ["narrative_layer"]
+    },
+    {
+      "name": "EMERGENT_NARRATIVE",
+      "purpose": "Enable narratives arising from play through sandbox systems and player agency",
+      "pseudocode": "physics_interactions = enable_creative_solutions(); player_stories = accumulate_unique_experiences(); systemic_storytelling = physics * AI * weather * player_creativity; return player_authored_narrative(systemic_storytelling)",
+      "inputs": ["sandbox_systems", "player_agency"],
+      "outputs": ["player_authored_narrative"]
+    },
+    {
+      "name": "TRIANGLE_RULE",
+      "purpose": "Apply three scales of triangular structures for spatial narrative pacing",
+      "pseudocode": "LARGE_TRIANGLES = create_landmarks(); MEDIUM_TRIANGLES = create_view_blockers(); SMALL_TRIANGLES = create_tempo_changes(); ensure visible_landmark_count >= 1; ensure obscured_region_count >= 2; ensure traversal_variety >= 3 options; return terrain.with_triangles(LARGE, MEDIUM, SMALL)",
+      "inputs": ["terrain"],
+      "outputs": ["terrain with triangular structures at three scales"]
+    },
+    {
+      "name": "GRAVITY_BASED_PLAYER_FLOW",
+      "purpose": "Replace marked paths with distributed attraction points for organic exploration",
+      "pseudocode": "for each poi: attraction = calculate_visibility(poi) * calculate_intrigue(poi); gravity_wells.append(GravityWell(poi, attraction)); while clustering_detected: redistribute_wells(); assert visible_wells >= 3; assert no_single_dominant_path; return dispersed_player_flow(gravity_wells)",
+      "inputs": ["world_map", "points_of_interest"],
+      "outputs": ["dispersed_player_flow with gravity_wells"]
+    },
+    {
+      "name": "SILENT_PROTAGONIST",
+      "purpose": "Design player vessel that balances character definition with player projection capability",
+      "pseudocode": "protagonist.voice = SILENT; protagonist.appearance = ARCHETYPAL + ANDROGYNOUS; protagonist.name = PLAYER_DEFINED or 'Link'; protagonist.personality = REACTIVE + COURAGEOUS; return player_projection_capable(protagonist)",
+      "inputs": ["protagonist template"],
+      "outputs": ["player_projection_capable protagonist"]
+    },
+    {
+      "name": "DUNGEON_NARRATIVE",
+      "purpose": "Design dungeon as self-contained dramatic arc with spider body structure",
+      "pseudocode": "ENTRANCE = establish_theme_and_threat(); SPIDER_BODY = central_hub_with_radiating_paths(); SPIDER_LEGS = themed_challenge_sequences(); ITEM_ACQUISITION = midpoint_power_gain(); BOSS_KEY_SEQUENCE = final_preparation(); BOSS_CHAMBER = climactic_confrontation(); HEART_CONTAINER = denouement_reward(); return dramatic_arc(ENTRANCE -> SPIDER_BODY -> ITEM -> BOSS_KEY -> BOSS -> REWARD)",
+      "inputs": ["dungeon theme", "dungeon item"],
+      "outputs": ["dramatic_arc structure"]
+    },
+    {
+      "name": "ETERNAL_RETURN",
+      "purpose": "Instantiate new cycle of the triadic curse pattern for each game era",
+      "pseudocode": "HERO = reincarnate(spirit_of_courage, era.context); GODDESS = reincarnate(blood_of_hylia, era.context); DEMON = manifest(demise_hatred, era.context); CONFLICT = generate_era_specific_struggle(HERO, GODDESS, DEMON); return game_narrative(CONFLICT, era.unique_elements)",
+      "inputs": ["era", "era.context"],
+      "outputs": ["game_narrative with era-specific conflict"]
+    },
+    {
+      "name": "DISCOVERY_PACING",
+      "purpose": "Regulate revelation frequency for optimal engagement across discovery types",
+      "pseudocode": "DISCOVERY_TYPES = {korok: HIGH/SMALL/LOW, shrine: MEDIUM/MEDIUM/MEDIUM, memory: LOW/HIGH_NARRATIVE/VARIED, divine_beast: VERY_LOW/HIGH/HIGH, master_sword: SINGULAR/HIGHEST/QUEST}; ensure minor_discovery every 2-5 minutes; ensure medium_discovery every 15-30 minutes; ensure major_discovery every 1-2 hours; ensure visible_next_goal >= 1 always; return sustained_engagement(discovery_rhythm)",
+      "inputs": ["world", "discovery_types"],
+      "outputs": ["sustained_engagement with discovery_rhythm"]
+    },
+    {
+      "name": "MEMORY_SYSTEM",
+      "purpose": "Implement embedded narrative accessible in any order with fragmented yet coherent design",
+      "pseudocode": "distribute_across_world(story_fragments); each fragment: is_self_contained = True, references_other_fragments = True, is_fully_comprehensible_alone = False; design for coherence at any discovery point; return fragmented_yet_coherent(story_fragments)",
+      "inputs": ["story_fragments"],
+      "outputs": ["fragmented_yet_coherent narrative"]
+    }
+  ],
+  "diagnostic_questions": [
+    {
+      "id": "Q1",
+      "question": "Is the story primarily discovered through exploration or told through exposition?",
+      "valid_if": "Discovered through exploration"
+    },
+    {
+      "id": "Q2",
+      "question": "Does the protagonist speak with a defined voice or remain silent as a player vessel?",
+      "valid_if": "Silent player vessel"
+    },
+    {
+      "id": "Q3",
+      "question": "Is the density of environmental narrative greater than verbal narrative?",
+      "valid_if": "Environmental narrative density far exceeds verbal narrative density"
+    },
+    {
+      "id": "Q4",
+      "question": "Does the narrative follow a cyclical eternal return pattern or linear progression?",
+      "valid_if": "Cyclical eternal return with variation"
+    },
+    {
+      "id": "Q5",
+      "question": "Are dungeons designed as self-contained dramatic arcs with spatial progression?",
+      "valid_if": "Yes, following spider body model with entrance, hub, legs, item, boss, reward"
+    },
+    {
+      "id": "Q6",
+      "question": "Does the world design use gravity wells and triangle rule for player flow?",
+      "valid_if": "Yes, with multiple visible attractions and no single dominant path"
+    },
+    {
+      "id": "Q7",
+      "question": "Is there an impression of vast unseen history through partial revelation?",
+      "valid_if": "Yes, through ruins, old names, recurring motifs, and partial texts"
+    },
+    {
+      "id": "Q8",
+      "question": "Does gameplay priority come before story priority?",
+      "valid_if": "Yes, story is a vessel for gameplay understanding"
+    },
+    {
+      "id": "Q9",
+      "question": "Can the player experience the narrative non-linearly with coherence at any discovery point?",
+      "valid_if": "Yes, fragmented yet coherent design"
+    }
+  ],
+  "theoretical_correspondences": {
+    "maps_to": [
+      "Henry Jenkins: Game Design as Narrative Architecture (2002)",
+      "Don Carson: Environmental Storytelling (2000)",
+      "Joseph Campbell: The Hero with a Thousand Faces (1949)",
+      "Tom Shippey on Tolkien's Impression of Depth"
+    ],
+    "sequence_pairs": ["Final-Fantasy"]
+  },
+  "quick_reference": {
+    "core_operations": [
+      "Spatial discovery as primary narrative",
+      "Environmental storytelling over verbal exposition",
+      "Player vessel protagonist (silent Link)",
+      "Triadic curse cycle instantiation (Link/Zelda/Ganon)",
+      "Dungeon as dramatic arc (spider body model)",
+      "Triangle rule for spatial pacing",
+      "Gravity wells for player flow",
+      "Discovery rhythm regulation",
+      "Fragmented yet coherent memory system",
+      "Impression of depth through partial revelation"
+    ],
+    "key_constraints": [
+      "Exploration must constitute the primary narrative experience",
+      "Player must feel they discovered truth rather than being told it",
+      "Environmental narrative density must exceed verbal narrative density",
+      "Each incarnation must recapitulate pattern while introducing variation",
+      "Protagonist must remain silent as player projection vessel",
+      "Visible landmark count must be at least 1 from any viewpoint",
+      "Visible attractions must be at least 3 from spawn points",
+      "No single dominant path through gravity wells",
+      "Minor discovery every 2-5 minutes",
+      "Medium discovery every 15-30 minutes",
+      "Major discovery every 1-2 hours",
+      "Story fragments must be self-contained yet reference other fragments"
+    ]
+  }
+}

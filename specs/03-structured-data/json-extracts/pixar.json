@@ -1,0 +1,226 @@
+{
+  "id": "pixar",
+  "creator": "Pixar Animation Studios (Pete Docter / Andrew Stanton / Brad Bird)",
+  "work": "Toy Story / Finding Nemo / Up / Inside Out",
+  "category": "Animation",
+  "axioms": [
+    {
+      "id": "PX-A0",
+      "name": "Empathy as Non-Negotiable Prerequisite",
+      "statement": "Frankly, there isn't anyone you couldn't learn to love once you've heard their story... Make me care — please, emotionally, intellectually, aesthetically, just make me care.",
+      "derivations": [
+        "Empathy is designed, not hoped for",
+        "Investment precedes adventure (establish why we care before what happens)",
+        "The 'catch' that stops channel-surfing is not accidental but engineered",
+        "Story design must CREATE conditions for empathy BEFORE asking audience to follow narrative journey"
+      ]
+    },
+    {
+      "id": "PX-A1",
+      "name": "Simplicity as Goal; Complexity as Process",
+      "statement": "Early drafts embrace complexity and uncertainty. The creative process is one of gradual simplification toward essential truth, not starting from simplicity.",
+      "derivations": [
+        "Simplicity is not the starting condition but an emergent property of iteration cycles",
+        "Premature simplification results in loss of discovered depth",
+        "Accept that first drafts will be messy and complex",
+        "Simplification is an act of discovery, not reduction",
+        "You won't see what the story is actually about til you're at the end of it"
+      ]
+    },
+    {
+      "id": "PX-A2",
+      "name": "Story is Tested, Not Written — The Brain Trust Model",
+      "statement": "Early on, all of our movies suck... The Braintrust is made up of people with a deep understanding of storytelling, who usually have been through the process themselves.",
+      "derivations": [
+        "Quality emerges from structured, honest feedback",
+        "Egalitarian critique environment enables truth-telling",
+        "Director ownership prevents defensive resistance",
+        "No authority over outcomes + deep expertise = productive friction",
+        "Problems identified; solutions left to creator"
+      ]
+    },
+    {
+      "id": "PX-A3",
+      "name": "Entertainment and Meaning Are Not Opposites",
+      "statement": "Pixar films prove that accessible entertainment can carry profound thematic weight. The dual-audience address (children's surface, adult depth) demonstrates that meaning enhances rather than diminishes entertainment value.",
+      "derivations": [
+        "Entertainment value is proportional to meaning depth, not orthogonal",
+        "Universal themes amplify emotional stakes",
+        "Emotional authenticity increases entertainment engagement",
+        "Depth creates rewatch value through new discoveries"
+      ]
+    }
+  ],
+  "structural_hierarchy": {
+    "levels": [
+      {
+        "level": 1,
+        "name": "Story Spine",
+        "description": "Core narrative structure template",
+        "elements": ["Once upon a time", "Every day", "One day", "Because of that (chain)", "Until finally"]
+      },
+      {
+        "level": 2,
+        "name": "Dual-Audience Layers",
+        "description": "Simultaneous narrative wavelengths for different audiences",
+        "elements": ["Surface Layer (Child Accessible)", "Depth Layer (Adult Resonance)"]
+      },
+      {
+        "level": 3,
+        "name": "McKee Scene/Act Structure",
+        "description": "Fractal story structure at every level",
+        "elements": ["Beats build to scene climax", "Scenes build to sequence climax", "Sequences build to act climax", "Acts build to story climax"]
+      },
+      {
+        "level": 4,
+        "name": "Plant/Payoff System",
+        "description": "Setup and resolution mechanics",
+        "elements": ["Plant (introduce in non-critical context)", "Reminder (optional reinforcement)", "Payoff (deploy at critical moment)"]
+      }
+    ]
+  },
+  "core_algorithms": [
+    {
+      "name": "PREMISE_GENERATOR",
+      "purpose": "Generate Pixar-style premises using the 'What if X had feelings?' pattern",
+      "pseudocode": "FUNCTION generate_pixar_premise(subject):\n  STEP 1: ANTHROPOMORPHIZATION - Apply human emotional architecture to subject while preserving essential nature/constraints\n  STEP 2: DRAMATIC QUESTION - Define what subject WANTS (external goal) vs NEEDS (internal truth), create gap between them\n  STEP 3: WORLD-BUILDING - Construct world from subject's perspective as hidden world parallel to human experience\n  OUTPUT: 'What if [SUBJECT] had feelings, and specifically, wanted [EXTERNAL_GOAL] but needed [INTERNAL_TRUTH]?'",
+      "inputs": ["subject (non-human entities, abstract concepts, or marginalized perspectives)"],
+      "outputs": ["Pixar-style premise with want/need gap"]
+    },
+    {
+      "name": "engineer_empathy",
+      "purpose": "Create character-audience emotional bond through systematic phases",
+      "pseudocode": "FUNCTION engineer_empathy(character):\n  Phase 1 RECOGNITION: establish universal_desire and specific_struggle\n  Phase 2 ADMIRATION: show effort > success, demonstrate persistence despite failure\n  Phase 3 VULNERABILITY: reveal fear, inadequacy, and love\n  Phase 4 SPINE: define unconscious motor (itch they can't scratch)\n  RETURN empathy_bond(audience, character)",
+      "inputs": ["character"],
+      "outputs": ["empathy_bond between audience and character"]
+    },
+    {
+      "name": "SILENT_MONTAGE_CONSTRUCTION",
+      "purpose": "Construct wordless narrative conveying complete emotional arc",
+      "pseudocode": "FUNCTION construct_life_montage(relationship):\n  STEP 1: REMOVE_DIALOGUE - Convert all exposition to visual symbol\n  STEP 2: ESTABLISH_VISUAL_MOTIFS - Create recurring symbols for themes\n  STEP 3: RHYTHM_PACING - fast cuts for happiness, slow pace for grief, repetition for ritual\n  STEP 4: PORTAL_FRAMING - Use doorways/windows for emotional distance\n  STEP 5: MUSICAL_INTEGRATION - Music as emotional narrator\n  OUTPUT: Self-contained short film establishing character psychology and motivation",
+      "inputs": ["relationship or emotional arc to convey"],
+      "outputs": ["Wordless montage establishing complete character psychology and audience investment"]
+    },
+    {
+      "name": "PLANT_PAYOFF_SYSTEM",
+      "purpose": "Implement setup and resolution mechanics for story elements",
+      "pseudocode": "FUNCTION implement_plant_payoff(story_element):\n  PHASE 1 PLANT: Introduce element in non-critical context, appears natural/overlooked\n  PHASE 2 REMINDER (optional): Reinforce if gap before payoff is long\n  PHASE 3 PAYOFF: Deploy at critical moment, audience experiences 'of course!' recognition\n  RULES: Payoff weight <= plant visibility; Coincidence for trouble = acceptable; Coincidence for resolution = cheating",
+      "inputs": ["story_element to set up"],
+      "outputs": ["Planted and paid-off story element with audience satisfaction"]
+    },
+    {
+      "name": "STORY_SPINE_CONSTRUCTION",
+      "purpose": "Build narrative structure using causal chain template",
+      "pseudocode": "FUNCTION construct_story_spine(protagonist):\n  ONCE_UPON_A_TIME: Establish protagonist in world, define essential nature\n  EVERY_DAY: Establish routine/status quo, hint at dissatisfaction\n  ONE_DAY: Inciting incident, status quo disruption\n  BECAUSE_OF_THAT (chain): Causally linked consequences, rising action\n  UNTIL_FINALLY: Climax, resolution, new equilibrium, character transformed\n  CONSTRAINT: Every beat causally connected",
+      "inputs": ["protagonist"],
+      "outputs": ["Logically structured story with causal chain"]
+    },
+    {
+      "name": "AUDIENCE_WORK_CALIBRATION",
+      "purpose": "Balance exposition using the '2+2' theory - give audience work without frustration",
+      "pseudocode": "FUNCTION calibrate_audience_work(story_element):\n  PRINCIPLE: Don't give them 4, give them 2+2\n  SPECTRUM: OVER-EXPLAINED (giving 4) = passive audience; WELL-CALIBRATED (2+2) = discovery satisfaction; UNDER-EXPLAINED = frustration\n  IMPLEMENTATION: Identify what audience needs to understand, determine minimum information for inference, provide just that minimum, trust audience intelligence",
+      "inputs": ["story_element requiring exposition"],
+      "outputs": ["Calibrated exposition enabling audience discovery pleasure"]
+    },
+    {
+      "name": "DUAL_AUDIENCE_CONSTRUCTION",
+      "purpose": "Build narrative operating on multiple simultaneous wavelengths for different audiences",
+      "pseudocode": "FUNCTION construct_dual_audience_narrative(story):\n  LAYER_1 SURFACE (Child Accessible): Clear protagonist with visible goal, physical action, visual humor, explicit resolution\n  LAYER_2 DEPTH (Adult Resonance): Thematic complexity, emotional nuance, social commentary, existential questions\n  INTEGRATION_RULES: Layer 2 must not impede Layer 1 comprehension; Same scenes serve both layers; Neither layer is 'the real story'\n  TESTING: Children engage with surface, Adults engage with depth, Neither feels excluded",
+      "inputs": ["story"],
+      "outputs": ["Multi-layer narrative accessible to all ages with depth for rewatching"]
+    },
+    {
+      "name": "COMEDY_OF_THREES",
+      "purpose": "Construct triple-beat humor structure",
+      "pseudocode": "FUNCTION construct_comedic_triple(setup):\n  BEAT_1: Establish pattern (normal expectation)\n  BEAT_2: Confirm pattern (audience anticipates continuation)\n  BEAT_3: Break pattern (subversion creates laugh)\n  TIMING: Beats 1-2 build tension; Beat 3 quick delivery\n  VARIATIONS: ESCALATING (each beat bigger), SUBVERTING (third completely different), CALLBACK (references earlier)\n  CONSTRAINT: Fourth+ beats exhaust rather than enhance",
+      "inputs": ["setup for comedic sequence"],
+      "outputs": ["Three-beat comedic structure with pattern break"]
+    }
+  ],
+  "diagnostic_questions": [
+    {
+      "id": "Q1",
+      "question": "Does the audience care about the character before the adventure begins?",
+      "valid_if": "Empathy conditions are established before asking audience to follow narrative journey (PX-A0)"
+    },
+    {
+      "id": "Q2",
+      "question": "Is the character admired for trying more than for succeeding?",
+      "valid_if": "Effort is shown prominently, character fails before succeeding (Rule #1)"
+    },
+    {
+      "id": "Q3",
+      "question": "Does every scene contain a value shift?",
+      "valid_if": "No static scenes exist; exposition is embedded in action (McKee adherence)"
+    },
+    {
+      "id": "Q4",
+      "question": "Are major payoffs supported by substantial plants?",
+      "valid_if": "Payoff weight does not exceed plant visibility; coincidences only create trouble, never resolve it (Rule #19)"
+    },
+    {
+      "id": "Q5",
+      "question": "Is the story giving the audience 2+2 rather than 4?",
+      "valid_if": "Audience participates in meaning discovery without frustration or condescension"
+    },
+    {
+      "id": "Q6",
+      "question": "Does the character have a clear want/need gap?",
+      "valid_if": "External goal differs from internal truth the character needs to learn"
+    },
+    {
+      "id": "Q7",
+      "question": "Can the story operate on both surface and depth levels simultaneously?",
+      "valid_if": "Children can engage with surface adventure while adults find thematic resonance; neither layer impedes the other"
+    },
+    {
+      "id": "Q8",
+      "question": "Does the character have a defined 'spine' or unconscious motor?",
+      "valid_if": "Character has an itch they can't scratch that drives all behavior (e.g., Woody: do what's best for his child)"
+    },
+    {
+      "id": "Q9",
+      "question": "Is every beat in the story causally connected?",
+      "valid_if": "Story follows 'because of that' chain rather than 'and then' sequence"
+    },
+    {
+      "id": "Q10",
+      "question": "Does the character face challenges opposite to their strengths?",
+      "valid_if": "Character is thrown into situations where core competency fails, requiring growth (Rule #6)"
+    }
+  ],
+  "theoretical_correspondences": {
+    "maps_to": [
+      "McKee Scene/Act Structure (value shifts, fractal story structure)",
+      "Aristotelian Catharsis (pity/fear leading to emotional purification)",
+      "Kishōtenketsu (Eastern narrative structure parallel to Story Spine)",
+      "Industrial Narratology / Emotional Engineering"
+    ],
+    "sequence_pairs": ["Final-Fantasy"]
+  },
+  "quick_reference": {
+    "core_operations": [
+      "What if X had feelings? (Premise Generation)",
+      "Make me care (Empathy Engineering)",
+      "2+2 not 4 (Audience Work Calibration)",
+      "Story Spine (Once upon a time / Every day / One day / Because of that / Until finally)",
+      "Plant and Payoff (Setup before resolution)",
+      "Dual-Audience Address (Surface + Depth layers)",
+      "Rule of Threes (Comedic timing)",
+      "Silent Montage (Wordless emotional narrative)",
+      "Brain Trust (Iterative candid feedback)"
+    ],
+    "key_constraints": [
+      "Empathy must be established BEFORE adventure begins",
+      "Simplicity emerges from iteration, not starting point",
+      "Coincidence to create trouble = allowed; to resolve it = forbidden",
+      "Every scene must contain a value shift",
+      "Director retains final authority despite feedback",
+      "Payoff weight must not exceed plant visibility",
+      "Fourth+ comedy beats exhaust rather than enhance",
+      "Layer 2 (depth) must not impede Layer 1 (surface) comprehension",
+      "Character want and need must differ",
+      "Finish imperfect rather than perfect incomplete"
+    ]
+  }
+}

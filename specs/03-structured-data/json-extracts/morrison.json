@@ -1,0 +1,221 @@
+{
+  "id": "morrison",
+  "creator": "Grant Morrison",
+  "work": "The Invisibles / All-Star Superman / Supergods",
+  "category": "Comics",
+  "axioms": [
+    {
+      "id": "GM-A0",
+      "name": "Fiction is Real",
+      "statement": "Stories are not representations of reality but participatory forces within it. The act of writing and reading is spellcasting. A comic book isn't just a story; it's a sigil charged with intent.",
+      "derivations": ["Stories affect reality", "The real is itself a kind of fiction", "We are written"]
+    },
+    {
+      "id": "GM-A1",
+      "name": "Compression is Kindness",
+      "statement": "Morrison champions dense, idea-rich storytelling where every panel carries narrative weight. The reader deserves maximum imagination per page. Stretched-out 'cinematic' pacing wastes the unique properties of the comics medium.",
+      "derivations": ["What happens in these pages that couldn't happen in other media? Pack more in.", "Decompression is padding", "Trust the reader"]
+    },
+    {
+      "id": "GM-A2",
+      "name": "Superheroes as Aspirational Archetypes",
+      "statement": "Superheroes are not adolescent power fantasies but aspirational gods—images of what we could become. They emerged from collective yearning and serve as evolutionary beacons.",
+      "derivations": ["The superhero is humanity's self-portrait at its best", "Through them we tell the story of ourselves", "Superheroes reflect and predict human existence"]
+    },
+    {
+      "id": "GM-A3",
+      "name": "Inclusive Metafiction",
+      "statement": "When Animal Man cries 'I CAN SEE YOU!' it's not clever postmodern trickery—it's an invitation to participate in the fiction. Metafiction serves initiation, not exhibition.",
+      "derivations": ["Break the fourth wall to include the reader, not to show off", "Metafiction must invite", "Reader becomes participant"]
+    },
+    {
+      "id": "GM-A4",
+      "name": "Optimism as Courage",
+      "statement": "Only a bitter little adolescent boy could confuse realism with pessimism. Darkness does not equal depth. Morrison rejects the Iron Age equation of 'mature = grim.' Wonder and optimism require more courage than cynicism.",
+      "derivations": ["Darkness does not equal depth", "Joy and wonder are not naive", "Daring to hope is the radical act"]
+    },
+    {
+      "id": "GM-A5",
+      "name": "Identity Fluidity",
+      "statement": "Drawn from chaos magic: you can put on and take off belief systems like clothes. The self is a fiction you can edit. What you think you are shapes what you become.",
+      "derivations": ["Belief is a tool", "Reality is writable", "Fiction suits allow identity switching"]
+    },
+    {
+      "id": "GM-A6",
+      "name": "Reader as Animator",
+      "statement": "It's amazing, the reader brings the comic book to life. Comics require active participation—the reader moves through time, fills in gutters, animates static images. This collaboration is inherently magical.",
+      "derivations": ["Reader controls time", "Reader fills in gutters", "Participation is magical"]
+    }
+  ],
+  "structural_hierarchy": {
+    "levels": [
+      {
+        "level": 0,
+        "name": "Consensus Reality",
+        "description": "The baseline reality outside the work",
+        "elements": ["Reader's world", "Shared reality"]
+      },
+      {
+        "level": 1,
+        "name": "The Hypersigil",
+        "description": "The work as magical working",
+        "elements": ["Intent embedded in structure", "Author's will encoded in narrative", "Reader participation activates the sigil"]
+      },
+      {
+        "level": 2,
+        "name": "The Diegetic World",
+        "description": "What characters experience",
+        "elements": ["Multiple nested fiction levels", "Characters may become aware of outer layers", "Higher-dimensional entities within the story"]
+      },
+      {
+        "level": 3,
+        "name": "The Metafictional Membrane",
+        "description": "The fourth wall",
+        "elements": ["Permeable in both directions", "Reader awareness changes story behavior", "Author may appear as character"]
+      },
+      {
+        "level": 4,
+        "name": "The Reader's Consciousness",
+        "description": "The ultimate target where transformation occurs",
+        "elements": ["Where transformation occurs", "The charging of the hypersigil", "Consciousness as the battlefield"]
+      }
+    ]
+  },
+  "core_algorithms": [
+    {
+      "name": "Hypersigil Construction",
+      "purpose": "Build narrative as magical working that manifests intent in reality",
+      "pseudocode": "FUNCTION construct_hypersigil(intent, story_elements, duration): 1. DEFINE core_desire (what to manifest), 2. ENCODE desire distributed across story elements, 3. CREATE story_world as microcosm/voodoo doll, 4. EMBED author avatar (warning: what happens to character happens to author), 5. INVITE maximum reader participation, 6. FORGET AND RELEASE through serialization, RETURN manifested_reality_changes",
+      "inputs": ["core_desire", "story_elements", "author_avatar", "serialization_format"],
+      "outputs": ["manifested_reality_changes", "charged_sigil", "transformed_readers"]
+    },
+    {
+      "name": "Fourth-Wall Collapse / Metalepsis",
+      "purpose": "Break the fourth wall to invite reader participation, not to display cleverness",
+      "pseudocode": "FUNCTION execute_metalepsis(character, reader_awareness, purpose): PREREQUISITE: establish character as real within story first. 1. GRADUAL AWARENESS BUILDING (subtle discontinuities), 2. THE BREAK MOMENT when character.consciousness.ready AND narrative.pressure.maximum, 3. EXISTENTIAL RECKONING (horror and wonder intertwined), 4. READER IMPLICATION (complicity revealed), 5. RELATIONSHIP TRANSFORMATION (co-creative awareness). CONSTRAINT: break wall to include, not show off",
+      "inputs": ["established_character", "narrative_pressure", "reader_investment"],
+      "outputs": ["transformed_reader_character_relationship", "reader_complicity_awareness", "new_reading_mode"]
+    },
+    {
+      "name": "Compression / Density Maximization",
+      "purpose": "Achieve maximum ideas per page by exploiting unique properties of comics medium",
+      "pseudocode": "FUNCTION maximize_compression(story, page_count): 1. ELIMINATE WASTE (delete filler, transform medium-inefficient elements), 2. LAYER MEANING (surface narrative + symbolic resonance + foreshadowing + world-building), 3. TRUST THE GUTTER (reader imagination is greatest asset), 4. MYTHIC EFFICIENCY (each unit standalone AND contributes to whole), 5. AVOID DECOMPRESSION TRAPS. RETURN story.ideas_per_page >= maximum_achievable",
+      "inputs": ["story_draft", "page_count", "medium_properties"],
+      "outputs": ["compressed_narrative", "ideas_per_page_ratio", "re_readability_quotient"]
+    },
+    {
+      "name": "Reality-Layer Nesting",
+      "purpose": "Construct recursive fiction layers where reality is treated as story",
+      "pseudocode": "FUNCTION construct_nested_reality(base_narrative): CREATE layers[]. ADD: 1. STORY-WITHIN-STORY (internal fictions), 2. FICTION SUITS (wearable narrative identities), 3. HIGHER DIMENSIONAL BEINGS (meta-characters from outer layers), 4. HYPERCONTINUITY (all versions simultaneously true), 5. TIME AS NARRATIVE LAYER (eras as genre conventions), 6. READER'S REALITY (outermost permeable layer). RETURN interconnected_reality_stack",
+      "inputs": ["base_narrative", "layer_types", "permeability_settings"],
+      "outputs": ["interconnected_reality_stack", "fiction_suit_inventory", "layer_traversal_rules"]
+    },
+    {
+      "name": "Ideational Structure",
+      "purpose": "Make ideas the protagonists where concepts drive plot through embodiment",
+      "pseudocode": "FUNCTION build_ideational_narrative(concept_payload): 1. IDENTIFY core concept (philosophical payload), 2. INCARNATE idea as characters/forces (personify abstractions), 3. DRAMATIZE CONCEPTUAL CONFLICT (stage philosophical argument as action), 4. READER AS CONCEPT-RECEIVER (think differently, not just feel), 5. AVOID PREACHINESS (show idea in motion, never stop to explain). RETURN story_that_transmits_concept_through_experience",
+      "inputs": ["core_concept", "abstraction_mappings", "conflict_structure"],
+      "outputs": ["embodied_concept_narrative", "transformed_reader_thinking", "experiential_transmission"]
+    }
+  ],
+  "diagnostic_questions": [
+    {
+      "id": "Q1",
+      "question": "What is the work trying to make real in the reader's life?",
+      "valid_if": "Clear intent can be identified beyond surface narrative"
+    },
+    {
+      "id": "Q2",
+      "question": "Where is the author's consciousness hidden in the structure?",
+      "valid_if": "Author avatar or encoded will can be located"
+    },
+    {
+      "id": "Q3",
+      "question": "How does the serial form contribute to the magical working?",
+      "valid_if": "Serialization creates forgetting and charging cycles"
+    },
+    {
+      "id": "Q4",
+      "question": "Does the work acknowledge its own fictionality? Subtly or explicitly?",
+      "valid_if": "Self-awareness present without breaking immersion gratuitously"
+    },
+    {
+      "id": "Q5",
+      "question": "If metafiction is present, does it INCLUDE or merely DISPLAY?",
+      "valid_if": "Reader feels invited into the mystery, not lectured at"
+    },
+    {
+      "id": "Q6",
+      "question": "What is the ideas-per-page ratio?",
+      "valid_if": "Multiple ideas, symbols, and meanings per page"
+    },
+    {
+      "id": "Q7",
+      "question": "Does it reward re-reading?",
+      "valid_if": "New meanings emerge on subsequent readings"
+    },
+    {
+      "id": "Q8",
+      "question": "How many layers of fiction exist within the work?",
+      "valid_if": "Multiple nested layers identifiable"
+    },
+    {
+      "id": "Q9",
+      "question": "Can characters move between layers?",
+      "valid_if": "Layer permeability is established"
+    },
+    {
+      "id": "Q10",
+      "question": "What concept is being dramatized, not just depicted?",
+      "valid_if": "Philosophical payload is embodied in action, not exposition"
+    },
+    {
+      "id": "Q11",
+      "question": "Will the reader think differently after finishing, or just feel differently?",
+      "valid_if": "Conceptual transformation, not just emotional catharsis"
+    },
+    {
+      "id": "Q12",
+      "question": "Is the idea SHOWN in action or TOLD through exposition?",
+      "valid_if": "Idea experienced through immersion, not explained through lecture"
+    }
+  ],
+  "theoretical_correspondences": {
+    "maps_to": [
+      "Chaos Magic (Spare's sigil technique)",
+      "Performativity Theory",
+      "Metalepsis (Genette)",
+      "Mise en abyme",
+      "Dream Condensation (Freud)",
+      "Dissociative Layering",
+      "Intertextuality",
+      "Gnosticism",
+      "Identity Multiplicity / Inner Parts Work",
+      "Cognitive-Behavioral Change",
+      "Transpersonal Psychology",
+      "Philosophical Fiction"
+    ],
+    "sequence_pairs": ["Alan-Moore"]
+  },
+  "quick_reference": {
+    "core_operations": [
+      "HYPERSIGIL: Build the story as a magical working. Your intent encoded; reader's participation charges it.",
+      "METALEPSIS: Break the fourth wall to INVITE, not impress. Metafiction = initiation, not exhibition.",
+      "COMPRESSION: More ideas per page than anyone. Trust the reader. Trust the gutter. Pack it dense.",
+      "REALITY-NESTING: Stories contain stories contain stories. The reader is always one layer outside—or are they?",
+      "IDEATION: Ideas are your protagonists. Concepts in collision = plot. Reader thinks, not just feels."
+    ],
+    "key_constraints": [
+      "Fiction is real—stories affect reality, write accordingly",
+      "Compression is kindness; decompression is padding",
+      "Break fourth wall to include, never to show off",
+      "Darkness does not equal depth; optimism requires courage",
+      "Belief is a tool; identity is fluid; reality is writable",
+      "Reader brings comic to life through active participation",
+      "What happens to author avatar may happen to author",
+      "Metafiction must be earned through prior narrative investment",
+      "Ideas must be shown in action, never stopped to explain",
+      "All versions can be simultaneously true (hypercontinuity)"
+    ]
+  }
+}

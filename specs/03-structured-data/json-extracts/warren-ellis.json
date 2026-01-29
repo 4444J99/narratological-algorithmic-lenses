@@ -1,0 +1,246 @@
+{
+  "id": "warren-ellis",
+  "creator": "Warren Ellis",
+  "work": "Transmetropolitan / Planetary / Global Frequency",
+  "category": "Comics",
+  "axioms": [
+    {
+      "id": "WE-A0",
+      "name": "Science Fiction as Social Fiction",
+      "statement": "Science fiction is not a literature of prediction but of examination; it uses speculative futures as tools to interrogate the present.",
+      "derivations": [
+        "SF(present) = lens(future_projection) -> analysis(now)",
+        "prediction != goal; illumination = goal",
+        "Uses future as tool to examine where we are now and where to go forward"
+      ]
+    },
+    {
+      "id": "WE-A1",
+      "name": "Cynicism as Romantic Refuge",
+      "statement": "Cynicism is the last refuge of the romantic.",
+      "derivations": [
+        "The cynical protagonist is not the antithesis of idealism but its protective armor",
+        "cynical_surface + humanitarian_action = romantic_core",
+        "if character.expressed_affect == CYNICISM then character.hidden_motivation = HOPE",
+        "The misanthrope who still fights is the true romantic"
+      ]
+    },
+    {
+      "id": "WE-A2",
+      "name": "Information Liberation as Heroic Act",
+      "statement": "Information as weapon; its liberation as revolutionary action; journalism as combat.",
+      "derivations": [
+        "heroism = act_of_revelation(hidden_truth)",
+        "power_confrontation = information_asymmetry.inversion()",
+        "Truth is the only thing that should matter in journalism",
+        "Journalism is dangerous and good journalists are also dangerous",
+        "Good political journalism will make you enemies"
+      ]
+    },
+    {
+      "id": "WE-A3",
+      "name": "The Future as Uneven Present",
+      "statement": "The future already exists; the writer's task is to identify and extrapolate its uneven distribution.",
+      "derivations": [
+        "Speculative fiction is an early warning station for heavy weather",
+        "Tests what might happen if lightning strikes at a certain place",
+        "Exposes systems from different angles",
+        "future_detection: scan present for emerging patterns, amplify to dramatic magnitude, return story"
+      ]
+    }
+  ],
+  "structural_hierarchy": {
+    "levels": [
+      {
+        "level": 1,
+        "name": "Foundational Axioms",
+        "description": "Core philosophical principles that underpin all Ellis narratives",
+        "elements": ["Science Fiction as Social Fiction", "Cynicism as Romantic Refuge", "Information Liberation as Heroic Act", "The Future as Uneven Present"]
+      },
+      {
+        "level": 2,
+        "name": "Core Algorithms",
+        "description": "Operational methods derived from axioms",
+        "elements": ["Speculative Extrapolation", "Cynical Humanism", "Information-as-Action", "Decompressed Beats with Density", "World-as-System"]
+      },
+      {
+        "level": 3,
+        "name": "Application Templates",
+        "description": "Practical implementation patterns for characters, issues, and worlds",
+        "elements": ["The Ellis Protagonist Template", "The Ellis Issue Structure", "The Ellis World Template"]
+      },
+      {
+        "level": 4,
+        "name": "Story Generation",
+        "description": "Complete narrative generation combining all elements",
+        "elements": ["Identify present phenomenon", "Amplify to visibility", "Create cynical-humanist protagonist", "Structure as information-action", "Pace with density", "Ground in systematic world"]
+      }
+    ]
+  },
+  "core_algorithms": [
+    {
+      "name": "Speculative Extrapolation",
+      "purpose": "Transform present-day conditions into illuminating speculative futures using the 'If This Goes On' methodology",
+      "pseudocode": "def ellis_extrapolation(present_condition):\n  phenomenon = observe(present_condition)\n  amplified = phenomenon.scale(factor='dramatic_visibility')\n  systems = {\n    'political': how_power_adapts(amplified),\n    'social': how_people_survive(amplified),\n    'technological': how_tools_evolve(amplified),\n    'ethical': what_choices_emerge(amplified)\n  }\n  insight = systems.reflect_back_on(present_condition)\n  return Story(setting=amplified, meaning=insight, mode='examination_not_prediction')",
+      "inputs": ["present_condition", "contemporary phenomenon", "technology", "social condition"],
+      "outputs": ["Story with speculative setting", "Insight about present day", "Systems analysis"]
+    },
+    {
+      "name": "Cynical Humanism",
+      "purpose": "Create protagonists with misanthropic surface presentation concealing humanitarian core motivation",
+      "pseudocode": "class CynicalHumanist:\n  surface_presentation = {\n    'affect': 'misanthropic',\n    'behavior': 'abrasive',\n    'vices': 'excessive',\n    'relationships': 'antagonistic'\n  }\n  core_values = {\n    'truth': 'absolute_commitment',\n    'power': 'must_be_confronted',\n    'corruption': 'must_be_exposed',\n    'people': 'worth_fighting_for'\n  }\n  paradox = 'hates_individuals; loves_humanity'\n  \n  def dramatic_engine():\n    return TensionBetween(\n      what_character_says='I hate you all',\n      what_character_does='risks everything to help you'\n    )",
+      "inputs": ["character role", "expertise domain", "crisis context"],
+      "outputs": ["Protagonist with cynical surface", "Hidden romantic motivation", "Dramatic tension engine"]
+    },
+    {
+      "name": "Information-as-Action",
+      "purpose": "Transform exposition into dramatic action by making information delivery kinetic and stakes-driven",
+      "pseudocode": "def information_as_action(data_to_convey):\n  data_with_stakes = attach_consequences(data_to_convey)\n  who_knows = establish_expert_character()\n  who_learns = establish_viewpoint_character()\n  power_dynamic = who_knows.expertise vs who_learns.need\n  visual_interest = environment + character_movement + reaction_shots\n  briefing_structure = {\n    'hook': 'Here is why this matters NOW',\n    'data': 'Here is what you need to know',\n    'stakes': 'Here is what happens if we fail',\n    'plan': 'Here is what we are going to do',\n    'complication': 'Here is why it is harder than it sounds'\n  }\n  return Scene(content=briefing_structure, affect=urgency, mode='preparation_for_action')",
+      "inputs": ["data_to_convey", "expert_character", "viewpoint_character", "environment"],
+      "outputs": ["Dramatic briefing scene", "Stakes-attached information", "Action-equivalent exposition"]
+    },
+    {
+      "name": "Decompressed Beats with Density",
+      "purpose": "Apply widescreen cinematic pacing while maintaining high content density and zero waste",
+      "pseudocode": "def widescreen_comics(story_beat):\n  panel = Panel(\n    aspect_ratio='widescreen',\n    content_density='high',\n    visual_information='maximum',\n    emotional_impact='amplified'\n  )\n  assert panel.visual_information > THRESHOLD\n  assert panel.narrative_function == 'essential'\n  assert panel.emotional_payload == 'significant'\n  return panel\n\ndef ellis_density_balance():\n  widescreen_principle = 'big, bold, extremely decompressed'\n  compressed_principle = 'one issue, complete story'\n  unifying_truth = 'decompression_is_not_padding'\n  return Style(visual_pacing='variable', content_density='always_high', waste='zero')",
+      "inputs": ["story_beat", "visual_scope_requirements", "narrative_content"],
+      "outputs": ["Widescreen panels with earned space", "Cinematic pacing", "High content density per page"]
+    },
+    {
+      "name": "World-as-System",
+      "purpose": "Build worlds as interconnected systems of secret histories and genre traditions using archaeological investigation",
+      "pseudocode": "class PlanetaryArchaeology:\n  mission = 'uncover the world secret history'\n  scope = 'all 20th century genre fiction'\n  method = 'archaeological investigation'\n  \n  def genre_archaeology(genre):\n    return Investigation(\n      surface=genre.conventions,\n      discovered=genre.as_secret_history,\n      meaning=genre.contribution_to_present\n    )\n\ndef secret_history_worldbuilding():\n  genres_as_history = {\n    'pulp_heroes': existed_in_1930s,\n    'giant_monsters': island_zero_incident,\n    'cosmic_horror': lovecraftian_entities_are_real,\n    'superheroes': emerged_from_pulp_tradition,\n    'science_fiction': technological_artifacts_remain\n  }\n  coherence = connect(genres_as_history, through='secret_organizations', maintaining='internal_logic')\n  return World(surface='ordinary_reality', hidden='genre_history_is_real', theme='wonder_must_be_protected')",
+      "inputs": ["genre_conventions", "historical_period", "secret_organizations"],
+      "outputs": ["Layered world with hidden history", "Archaeological investigation structure", "Genre-as-mythology framework"]
+    },
+    {
+      "name": "Complete Ellis Story Generation",
+      "purpose": "Generate complete Ellis-style narratives by combining all core algorithms",
+      "pseudocode": "def generate_story(seed_concept):\n  # 1. Find the present-day phenomenon\n  present = identify_in_now(seed_concept)\n  # 2. Amplify to visibility\n  future = speculative_extrapolation(present)\n  # 3. Create cynical-humanist protagonist\n  protagonist = cynical_humanist()\n  protagonist.expertise = relevant_to(seed_concept)\n  # 4. Structure as information-action\n  plot = series_of(information_as_action(mystery), leading_to=revelation)\n  # 5. Pace with density\n  execution = decompressed_density().apply_to(plot)\n  # 6. Ground in systematic world\n  world = world_as_system()\n  world.secret_history = connects_to(seed_concept)\n  return Story(\n    protagonist=protagonist,\n    plot=plot,\n    world=world,\n    execution=execution,\n    theme='truth_confronts_power'\n  )",
+      "inputs": ["seed_concept", "present_day_phenomenon"],
+      "outputs": ["Complete Ellis-style story", "Cynical-humanist protagonist", "Information-driven plot", "Systematic world with secret history"]
+    }
+  ],
+  "diagnostic_questions": [
+    {
+      "id": "Q1",
+      "question": "Does the speculative setting illuminate present-day conditions rather than merely predict future ones?",
+      "valid_if": "The future setting functions as a lens for examining current social, political, or technological issues"
+    },
+    {
+      "id": "Q2",
+      "question": "Does the protagonist exhibit cynical surface behavior while taking humanitarian action?",
+      "valid_if": "Character expresses contempt verbally but risks everything to help others through action"
+    },
+    {
+      "id": "Q3",
+      "question": "Are briefing and exposition scenes treated as dramatic action rather than narrative interruption?",
+      "valid_if": "Information delivery has attached stakes, expert/learner dynamics, and urgency"
+    },
+    {
+      "id": "Q4",
+      "question": "Does visual decompression serve narrative density rather than fill pages?",
+      "valid_if": "Every panel advances story or character; no establishing shots without information"
+    },
+    {
+      "id": "Q5",
+      "question": "Does the world function as a palimpsest of genre history treated as secret reality?",
+      "valid_if": "Genre conventions are literalized as discoverable hidden history"
+    },
+    {
+      "id": "Q6",
+      "question": "Is the core conflict framed as truth versus power, with information liberation as heroic act?",
+      "valid_if": "Revelation of hidden truth constitutes the primary heroic action"
+    },
+    {
+      "id": "Q7",
+      "question": "Does the setting avoid the dystopia/utopia binary in favor of 'present writ large'?",
+      "valid_if": "Future contains both joys and pains, amplified from recognizable present conditions"
+    }
+  ],
+  "theoretical_correspondences": {
+    "maps_to": [
+      "Grant Morrison's Hypersigil Method (contrasting approach: magical vs journalistic)",
+      "William Gibson's Speculative Method (shared: future-as-present-detection; different: technology-focus vs social-pathology-focus)",
+      "H.G. Wells Social Science Fiction tradition",
+      "Hunter S. Thompson Gonzo Journalism",
+      "British Invasion of American Comics",
+      "Cyberpunk genre lineage"
+    ],
+    "sequence_pairs": [
+      {
+        "dimension": "Primary mode",
+        "morrison": "Magical/mystical",
+        "ellis": "Journalistic/analytical"
+      },
+      {
+        "dimension": "Density source",
+        "morrison": "Symbolic layering",
+        "ellis": "Informational density"
+      },
+      {
+        "dimension": "Reader relationship",
+        "morrison": "Initiation",
+        "ellis": "Investigation"
+      },
+      {
+        "dimension": "Reality concept",
+        "morrison": "Writable/alterable",
+        "ellis": "Observable/exposable"
+      },
+      {
+        "dimension": "Fiction's function",
+        "morrison": "Change reality",
+        "ellis": "Reveal reality"
+      },
+      {
+        "dimension": "Characteristic tool",
+        "morrison": "Hypersigil",
+        "ellis": "Briefing/exposition"
+      },
+      {
+        "dimension": "Prose style",
+        "gibson": "Fragmented, noir-inflected",
+        "ellis": "Conversational, confrontational"
+      },
+      {
+        "dimension": "Technology role",
+        "gibson": "Defining environmental force",
+        "ellis": "Tool for social analysis"
+      },
+      {
+        "dimension": "Protagonist type",
+        "gibson": "Marginal operator",
+        "ellis": "Crusading journalist"
+      },
+      {
+        "dimension": "Information treatment",
+        "gibson": "Commodity/currency",
+        "ellis": "Weapon/liberation"
+      }
+    ]
+  },
+  "quick_reference": {
+    "core_operations": [
+      "Speculative Extrapolation: Amplify present conditions to dramatic visibility",
+      "Cynical Humanism: Create protagonists with misanthropic surface, humanitarian core",
+      "Information-as-Action: Make exposition dramatic through stakes and urgency",
+      "Decompressed Density: Widescreen pacing with zero wasted space",
+      "World-as-System: Treat genre history as discoverable secret reality",
+      "Present Writ Large: Neither dystopia nor utopia, but amplified present",
+      "Truth Confronts Power: Information liberation as primary heroic act"
+    ],
+    "key_constraints": [
+      "SF must examine present, not predict future",
+      "Cynicism must mask romantic idealism, not replace it",
+      "Every panel must advance story or character",
+      "Exposition must carry stakes equivalent to action",
+      "Decompression must never equal padding",
+      "World must contain coherent hidden history",
+      "Protagonist must act against expressed contempt",
+      "Genre conventions must be treated as literal historical events",
+      "Future setting must illuminate current conditions",
+      "Information must function as both weapon and liberation"
+    ]
+  }
+}

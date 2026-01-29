@@ -1,0 +1,202 @@
+{
+  "id": "bergman",
+  "creator": "Ingmar Bergman",
+  "work": "Filmography / The Magic Lantern",
+  "category": "Film",
+  "axioms": [
+    {
+      "id": "IB-A0",
+      "name": "Foundational Axiom",
+      "statement": "Film is dream, film is music. The cinema operates through affective logic rather than rational argument. Like dreams, it bypasses linguistic mediation to access emotional truth directly. Like music, it structures time as felt duration rather than measured sequence.",
+      "derivations": ["Cinema permits direct transmission of psychological states through visual rhythm and composition", "Fundamental departure from theatrical realism despite deep roots in stage practice"]
+    },
+    {
+      "id": "IB-A1",
+      "name": "The Face Contains All Drama",
+      "statement": "The human face is the great subject of the cinema. Everything can be read in the face. The close-up is not merely a technique but an ontological claim: the face is the primary site where interiority becomes visible. Unlike landscape or architecture, the face cannot dissemble completely - micro-expressions betray what words conceal.",
+      "derivations": ["Close-up as ontological claim", "Face as primary site of visible interiority", "Micro-expressions reveal concealed truth"]
+    },
+    {
+      "id": "IB-A2",
+      "name": "Intimacy Requires Constraint",
+      "statement": "Dramatic intensity varies inversely with spatial and numerical expansion. The fewer the characters and the more confined the space, the greater the potential for psychological excavation.",
+      "derivations": ["Chamber play principles from Strindberg", "Formal constraints intensify rather than limit dramatic possibilities", "Spatial compression generates psychological pressure"]
+    },
+    {
+      "id": "IB-A3",
+      "name": "Demons Must Be Named to Be Expelled",
+      "statement": "One must make films about things one knows, about what hurts. The only way to get rid of one's demons is to portray them. Art as exorcism: the therapeutic function of creative work operates through confrontation and articulation rather than avoidance.",
+      "derivations": ["Art as exorcism", "Naming psychological forces transforms them from possessing agents into represented objects", "Confrontation over avoidance"]
+    },
+    {
+      "id": "IB-A4",
+      "name": "Silence Is the Presence of Absence",
+      "statement": "God's silence is not neutral emptiness but active withdrawal. The unanswered prayer creates meaning through its very failure.",
+      "derivations": ["Kenotic silence - an emptying that demands response", "Protestant dialectic of faith", "Contrast with Tarkovsky's plenum-silence"]
+    },
+    {
+      "id": "IB-A5",
+      "name": "The Mask Reveals the Face",
+      "statement": "The persona (social mask) and the authentic self exist in productive tension. Stripping away pretense does not reveal a stable identity but another layer of performance, unto the void.",
+      "derivations": ["Masks beneath masks", "No stable authentic self beneath performance", "Identity dissolution into void"]
+    }
+  ],
+  "structural_hierarchy": {
+    "levels": [
+      {
+        "level": 1,
+        "name": "Spatial Compression",
+        "description": "Physical containment that creates psychological entrapment",
+        "elements": ["Isolated Location (island, hospital, country house)", "Limited Exit Points (psychological entrapment)", "Domestic Scale (rooms not landscapes)", "Threshold Spaces (doors, windows, mirrors)"]
+      },
+      {
+        "level": 2,
+        "name": "Temporal Concentration",
+        "description": "Compressed duration that maintains dramatic pressure",
+        "elements": ["Compressed Duration (hours to days, not years)", "Crisis Point Entry (in medias res)", "Flashback as Wound (memory as intrusion)", "Suspended Resolution (endings that don't close)"]
+      },
+      {
+        "level": 3,
+        "name": "Relational Minimalism",
+        "description": "Minimal cast for maximum psychological intensity",
+        "elements": ["2-4 Principal Characters", "Dyadic Core (the essential pair)", "Triangular Tensions (third party as catalyst)", "Witness Figure (child, servant, doctor)"]
+      },
+      {
+        "level": 4,
+        "name": "Thematic Intensification",
+        "description": "Existential themes that drive psychological excavation",
+        "elements": ["Existential Confrontation (death, God, meaning)", "Identity Crisis (who am I without my mask?)", "Erotic/Thanatic Fusion (desire and destruction)", "Confession and Judgment (Protestant psychology)"]
+      }
+    ]
+  },
+  "core_algorithms": [
+    {
+      "name": "Chamber Drama Construction",
+      "purpose": "Generates dramatic structure through systematic constraint, derived from Strindberg's kammarspel principles",
+      "pseudocode": "SELECT isolated_space WHERE exit_difficulty >= HIGH AND scale == DOMESTIC; CREATE essential_dyad; IF needs_catalyst THEN add_third_party; IF needs_witness THEN add_observer; ASSERT character_count <= 4; COMPRESS timeframe; ENTER at crisis_moment; ESTABLISH existential_stakes(death_proximity, god_question, identity_threat)",
+      "inputs": ["isolated_space", "character_relationships", "crisis_trigger", "existential_concerns"],
+      "outputs": ["chamber_structure", "spatial_constraints", "character_configuration", "temporal_pressure"]
+    },
+    {
+      "name": "Facial Excavation Protocol",
+      "purpose": "The Bergman-Nykvist close-up methodology - the face as landscape of the soul",
+      "pseudocode": "BEGIN with social_distance; WHILE emotional_pressure.increasing DO reduce_focal_distance AND eliminate_context; WHEN mask_begins_to_crack ENTER extreme_close_up; APPLY soft_diffused_lighting; HOLD longer_than_comfortable; DETERMINE gaze_direction (direct_to_camera | averted | to_other_character); RETURN revelations_captured",
+      "inputs": ["subject", "camera_position", "lighting_setup", "emotional_context"],
+      "outputs": ["facial_excavation", "revelations_captured", "spectator_response"]
+    },
+    {
+      "name": "Silence Treatment (Bergman Mode)",
+      "purpose": "Deploy silence as absence, withdrawal, and accusation - contrasting with Tarkovsky's plenum-silence",
+      "pseudocode": "SELECT silence_type FROM (DIVINE, ELECTIVE, TRAUMATIC, ACCUSATORY, EXHAUSTED); ESTABLISH expectation_of_speech; DEPLOY selected_silence WITH appropriate_meaning; IF others_present THEN response = (CONFESSION | PROJECTION | BREAKDOWN | MIRROR); RETURN silence_deployment WHERE duration = until_unbearable",
+      "inputs": ["context", "characters", "purpose", "silence_type"],
+      "outputs": ["silence_deployment", "meaning_generated", "power_shift"]
+    },
+    {
+      "name": "The Merged Face Sequence",
+      "purpose": "Identity dissolution through visual superimposition - the Persona technique of two faces becoming one",
+      "pseudocode": "ASSERT relationship.intimacy >= INTENSE AND power_dynamic == ASYMMETRICAL; ACCUMULATE visual_rhymes throughout_film; WHEN identity_confrontation THEN EXECUTE split_screen_composite; CREATE impossible_third_face from left_half_A + right_half_B; HOLD for recognition THEN horror THEN self_questioning; RETURN merged_sequence WHERE psychological_meaning = identity_dissolution",
+      "inputs": ["character_A", "character_B", "visual_rhymes", "identity_confrontation_scene"],
+      "outputs": ["merged_face_sequence", "identity_dissolution", "spectator_implication"]
+    },
+    {
+      "name": "The Bergman Confession",
+      "purpose": "The extended monologue as psychological strip-tease - one speaker, one silent listener, progressive revelation",
+      "pseudocode": "REQUIRE one_speaker AND one_silent_listener AND extended_duration(5-15min); ESTABLISH confessor_reluctance; DELIVER content_layers PROGRESSIVELY (surface_narrative, emotional_truth, shameful_secret, core_wound); INTERCUT with listener_face; APPROACH with gradual_close_up; AT climax DELIVER the_unspeakable; RETURN response FROM (SILENCE, REJECTION, EMBRACE, COUNTER_CONFESSION)",
+      "inputs": ["confessor", "witness", "confession_content", "trigger_condition"],
+      "outputs": ["confession_sequence", "catharsis_or_destruction", "relationship_state_change"]
+    },
+    {
+      "name": "Theatrical-Cinematic Hybridization",
+      "purpose": "Bergman's unique synthesis retaining theatrical intensity while exploiting cinematic intimacy",
+      "pseudocode": "RETAIN theatrical_elements (verbal_density, spatial_unity, performative_intensity, dramatic_structure); TRANSFORM FOR cinema (face_replaces_body, whispers_replace_projection, micro_gestures, natural_lighting); SYNTHESIZE bergman_inventions (film_within_film, stage_within_film, rehearsal_as_revelation, direct_address); RETURN hybrid_form WHERE intensity = THEATRICAL AND intimacy = CINEMATIC",
+      "inputs": ["source_material", "theatrical_elements", "target_medium"],
+      "outputs": ["hybrid_form", "theatrical_intensity", "cinematic_intimacy", "meta_reflexivity"]
+    }
+  ],
+  "diagnostic_questions": [
+    {
+      "id": "Q1",
+      "question": "Is the space sufficiently constrained? Can characters easily leave?",
+      "valid_if": "Characters cannot easily leave; architecture creates psychological pressure; threshold spaces mark inside/outside"
+    },
+    {
+      "id": "Q2",
+      "question": "Is the cast minimally essential? Could any character be removed without destroying the drama?",
+      "valid_if": "No character can be removed; clear dyadic core exists; each additional character serves irreplaceable function"
+    },
+    {
+      "id": "Q3",
+      "question": "Is the temporal pressure adequate? Does the drama enter at crisis point?",
+      "valid_if": "Drama enters at crisis point; urgency exists beyond plot mechanics; death (literal or metaphorical) hovers"
+    },
+    {
+      "id": "Q4",
+      "question": "Is the face being used as landscape? Are close-ups held long enough to reveal layers?",
+      "valid_if": "Close-ups held long enough for revelation; lighting serves revelation; face shows what words cannot say"
+    },
+    {
+      "id": "Q5",
+      "question": "Is the mask-face dialectic operative? Can we see the effort of performance?",
+      "valid_if": "Effort of performance is visible; moments exist when mask slips; there is a face beneath the face"
+    },
+    {
+      "id": "Q6",
+      "question": "Is silence functioning as presence? Does silence create meaning through absence?",
+      "valid_if": "Silence creates meaning through absence; unanswered speech is more powerful than answer; silence shifts power dynamics"
+    },
+    {
+      "id": "Q7",
+      "question": "Is the confession sequence structured for maximum exposure?",
+      "valid_if": "Reluctance is overcome; progressive revelation occurs; unspeakable core is finally spoken"
+    },
+    {
+      "id": "Q8",
+      "question": "Are identity boundaries appropriately unstable?",
+      "valid_if": "Characters project onto each other; moments of fusion/confusion exist; unclear where one psyche ends and another begins"
+    },
+    {
+      "id": "Q9",
+      "question": "Is the existential confrontation genuine?",
+      "valid_if": "God's silence is addressed; death's presence is felt; question of meaning is at stake"
+    }
+  ],
+  "theoretical_correspondences": {
+    "maps_to": [
+      "Strindberg Chamber Play (Kammerspiel)",
+      "Dreyer Facial Phenomenology",
+      "Levinas - The Face of the Other",
+      "Sartre - The Look (le regard)",
+      "Heidegger - Being-toward-death",
+      "Kierkegaard - Stages on Life's Way",
+      "Buber - I-Thou / I-It",
+      "Merleau-Ponty - Flesh of the world"
+    ],
+    "sequence_pairs": ["Tarkovsky"]
+  },
+  "quick_reference": {
+    "core_operations": [
+      "SPACE: Compress until escape is impossible",
+      "CAST: Reduce until each presence is essential",
+      "TIME: Enter at crisis, maintain pressure",
+      "FACE: The primary text - read it obsessively",
+      "SILENCE: Absence that creates presence",
+      "CONFESSION: The monologue as excavation",
+      "IDENTITY: Masks beneath masks unto void",
+      "GOD: The unanswered question",
+      "DEATH: The uninvited guest always present",
+      "THEATER: The form remembered, transformed",
+      "CINEMA: The intimacy theater cannot achieve"
+    ],
+    "key_constraints": [
+      "Spatial compression - isolated locations with limited exit points",
+      "Cast minimalism - 2-4 principal characters with dyadic core",
+      "Temporal concentration - compressed duration entering at crisis",
+      "Facial primacy - close-up as primary dramatic unit",
+      "Active silence - absence as meaning-generator",
+      "Progressive confession - layered revelation structure",
+      "Identity instability - masks beneath masks",
+      "Existential stakes - death and God's silence as constants",
+      "Theatrical-cinematic synthesis - intensity meets intimacy"
+    ]
+  }
+}

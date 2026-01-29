@@ -1,0 +1,220 @@
+{
+  "id": "alan-moore",
+  "creator": "Alan Moore",
+  "work": "Watchmen / From Hell / Promethea",
+  "category": "Comics",
+  "axioms": [
+    {
+      "id": "AM-A0",
+      "name": "Formal Medium Primacy",
+      "statement": "Comics' unique power emerges from the structural interplay of verbal and visual elements; formal experimentation unlocks latent possibilities.",
+      "derivations": [
+        "Comics has possibilities that people have not even begun to touch",
+        "Moore is one of the first writers to apply literary and formalist sensibilities to the mainstream of the medium",
+        "Watchmen's grid creates meaning through structural constraint"
+      ]
+    },
+    {
+      "id": "AM-A1",
+      "name": "Density and Re-readability",
+      "statement": "Density creates re-readability and rewards engaged readers; however, density must serve the story's idea rather than demonstrate authorial cleverness.",
+      "derivations": [
+        "Moore's scripts are legendarily dense (1,032 pages for 12 issues)",
+        "Watchmen and V for Vendetta rank among the densest graphic narratives",
+        "League of Extraordinary Gentlemen caters to readers with obscure allusions"
+      ]
+    },
+    {
+      "id": "AM-A2",
+      "name": "Grid as Musical Score",
+      "statement": "The grid establishes rhythmic baseline; deviations from grid create emphasis (dynamics).",
+      "derivations": [
+        "Reading comics involves beats, sighs, pauses and measures - a natural rhythm",
+        "The 9-panel grid is the iambic pentameter of comics",
+        "High rhythm and high tempo are not virtues in themselves - pacing is about change",
+        "A nine-panel grid is very high rhythm - use it for tense sequences"
+      ]
+    },
+    {
+      "id": "AM-A3",
+      "name": "Mastery Before Deconstruction",
+      "statement": "Effective deconstruction requires prior demonstration of genre mastery; Moore's deconstructive power derives from working within genre conventions.",
+      "derivations": [
+        "Moore's career arc: Marvelman to Swamp Thing to Watchmen",
+        "Moore practically made a career out of Genre Deconstruction, particularly with superheroes",
+        "Watchmen deconstructs the superhero genre, examining its conventions and tropes to critique and subvert them"
+      ]
+    },
+    {
+      "id": "AM-A4",
+      "name": "Idea Precedes Plot",
+      "statement": "The idea is what the story is about; not the plot of the story, or the unfolding of events within that story, but what the story is essentially about.",
+      "derivations": [
+        "Story generation should begin with thematic core (IDEA) before event sequencing (PLOT)",
+        "The idea functions as a constraint that filters all subsequent decisions"
+      ]
+    },
+    {
+      "id": "AM-A5",
+      "name": "The Discomfort Principle",
+      "statement": "When a writer becomes comfortable, it erodes creativity. It therefore behooves the writer to become uncomfortable, change genre, technique, or style, sometimes all three.",
+      "derivations": [
+        "Generative systems should include constraint-randomization or forced-variation mechanisms",
+        "Prevents formulaic output through deliberate disruption"
+      ]
+    },
+    {
+      "id": "AM-A6",
+      "name": "Invisible Transitions",
+      "statement": "When you do a sucky job writing your story, people are aware they're reading a story, and that defeats the point. A lot of us blow it in the transitions.",
+      "derivations": [
+        "Transition quality determines immersion",
+        "The goal is reader-invisible structural mechanics"
+      ]
+    }
+  ],
+  "structural_hierarchy": {
+    "levels": [
+      {
+        "level": 1,
+        "name": "Idea (Thematic Core)",
+        "description": "What the story is essentially about - the foundational constraint that filters all decisions",
+        "elements": ["central_theme", "philosophical_question", "moral_problem"]
+      },
+      {
+        "level": 2,
+        "name": "Structure (Formal Architecture)",
+        "description": "The predetermined structural framework that generates meaning",
+        "elements": ["grid_system", "symmetry_patterns", "temporal_organization", "embedded_narratives"]
+      },
+      {
+        "level": 3,
+        "name": "Plot (Event Sequence)",
+        "description": "The unfolding of events constrained by idea and structure",
+        "elements": ["scene_sequence", "character_arcs", "causal_chains"]
+      },
+      {
+        "level": 4,
+        "name": "Panel Composition",
+        "description": "Individual visual moments within the structural framework",
+        "elements": ["panel_size", "panel_layout", "visual_content", "text_integration"]
+      },
+      {
+        "level": 5,
+        "name": "Intertextual Layer",
+        "description": "References and allusions creating semantic density",
+        "elements": ["epigraphs", "visual_allusions", "structural_echoes", "thematic_rhymes"]
+      }
+    ]
+  },
+  "core_algorithms": [
+    {
+      "name": "AM-GRID-01: Nine-Panel Rhythm Control",
+      "purpose": "Establish rhythmic baseline through rigid grid structure; make deviations meaningful through consistency",
+      "pseudocode": "FUNCTION GridRhythm(narrative_beat):\n  BASE_GRID = 9\n  IF beat.tension == HIGH: RETURN standard_grid(9)\n  IF beat.emphasis == CRITICAL: RETURN merge_panels(position, count)\n  IF beat.type == SCENE_TRANSITION: RETURN page_break()\n  IF beat.type == STRIP_END: RETURN row_break()\n  impact = (deviation_size / baseline_panel_size) * consistency_factor",
+      "inputs": ["narrative_beat", "tension_level", "emphasis_requirement", "transition_type"],
+      "outputs": ["panel_configuration", "impact_score"]
+    },
+    {
+      "name": "AM-SYM-01: Palindrome Structure Generator",
+      "purpose": "Create meaning through structural correspondence; establish center as moral/narrative fulcrum",
+      "pseudocode": "FUNCTION PalindromeNarrative(total_pages):\n  center = total_pages / 2\n  FOR page IN range(1, center):\n    mirror_page = total_pages - page + 1\n    page.layout = MIRROR(mirror_page.layout)\n    page.scenes = THEMATIC_INVERSE(mirror_page.scenes)\n  center_spread.action = CLIMACTIC_VIOLENCE\n  center_spread.layout = PERFECT_BILATERAL_SYMMETRY",
+      "inputs": ["total_pages", "scene_list", "thematic_correspondences"],
+      "outputs": ["mirrored_layout_pairs", "center_pivot_specification"]
+    },
+    {
+      "name": "AM-INT-01: Intertextual Density Layering",
+      "purpose": "Create re-readability through multiple reference layers requiring different competences to decode",
+      "pseudocode": "FUNCTION IntertextualLayer(scene, density_target):\n  layers = []\n  layers.append(SELECT_EPIGRAPH(theme_keywords))\n  layers.append(EMBED_VISUAL_REFERENCE(canonical_images, cultural_domain))\n  layers.append(MIRROR_STRUCTURE(source_text.architecture))\n  layers.append(PARALLEL_THEME(source_text.central_idea))\n  RETURN layer_stack WHERE len(layers) >= density_target",
+      "inputs": ["scene", "density_target", "theme_keywords", "cultural_domain"],
+      "outputs": ["primary_quotation", "visual_allusion", "structural_echo", "thematic_rhyme"]
+    },
+    {
+      "name": "AM-META-01: Parallel Narrative Commentary",
+      "purpose": "Embedded narratives provide analytical framework; story-within-story comments on main narrative",
+      "pseudocode": "FUNCTION EmbeddedNarrative(main_story, embedded_story):\n  main = StoryLevel(primary=True)\n  embedded = StoryLevel(primary=False)\n  FOR main_character IN main.characters:\n    embedded.character = CREATE_PARALLEL(shared_traits=main_character.flaws, outcome=DARK_MIRROR(main_character.arc))\n  FOR scene IN main.scenes:\n    IF scene.thematic_weight > THRESHOLD: INTERCUT(embedded.corresponding_scene)\n  CREATE_CHARACTER(role='reader of embedded text', location='marginal', function='model interpretation')",
+      "inputs": ["main_story", "embedded_story", "character_mapping", "thematic_weight_threshold"],
+      "outputs": ["intercut_sequence", "parallel_character_mapping", "reader_proxy_character"]
+    },
+    {
+      "name": "AM-TIME-01: Simultaneity Structure",
+      "purpose": "Literalize eternalist philosophy through comics' unique property of visible simultaneous page",
+      "pseudocode": "FUNCTION BlockUniverseNarrative(character_with_temporal_perception):\n  timeline = FLATTEN(past, present, future)\n  FOR panel IN sequence:\n    panel.tense = ETERNAL_PRESENT\n    panel.captions = SIMULTANEOUS_VOICE('I am doing X' + 'I will do Y' + 'I have done Z')\n  page_layout = SPATIAL_not_TEMPORAL\n  narrative_affect = TRAGIC_DETERMINISM",
+      "inputs": ["character_timeline", "temporal_perception_mode"],
+      "outputs": ["flattened_timeline", "simultaneous_voice_captions", "spatial_layout"]
+    }
+  ],
+  "diagnostic_questions": [
+    {
+      "id": "Q1",
+      "question": "Does the story have a clear IDEA (thematic core) that precedes and constrains the plot?",
+      "valid_if": "The central theme can be stated independently of plot events"
+    },
+    {
+      "id": "Q2",
+      "question": "Does the grid/panel structure establish a consistent baseline that makes deviations meaningful?",
+      "valid_if": "Rhythmic regularity is maintained such that variation creates emphasis"
+    },
+    {
+      "id": "Q3",
+      "question": "Are transitions invisible - does the reader lose awareness of reading?",
+      "valid_if": "Structural mechanics do not call attention to themselves"
+    },
+    {
+      "id": "Q4",
+      "question": "Does structural symmetry create thematic correspondence?",
+      "valid_if": "Mirrored positions contain related/inverted content (beginning/consequence, intact/broken)"
+    },
+    {
+      "id": "Q5",
+      "question": "Are multiple intertextual layers present for different reader competences?",
+      "valid_if": "At least two layers: surface reference (quotation) and deeper structural/thematic echo"
+    },
+    {
+      "id": "Q6",
+      "question": "Do embedded narratives comment on the main narrative?",
+      "valid_if": "Story-within-story parallels main character arcs or thematic concerns"
+    },
+    {
+      "id": "Q7",
+      "question": "Is genre mastery demonstrated before deconstruction attempted?",
+      "valid_if": "Conventional genre competence precedes subversion"
+    },
+    {
+      "id": "Q8",
+      "question": "Does the work include deliberate discomfort - genre/technique/style variation?",
+      "valid_if": "Evidence of forced-variation mechanisms preventing formulaic output"
+    }
+  ],
+  "theoretical_correspondences": {
+    "maps_to": [
+      "McCloud's Understanding Comics (panel-as-moment, closure, time=space)",
+      "Groensteen's System of Comics (rhythmic reading, beats, sighs, pauses)",
+      "Kabbalistic/Hermetic tradition (Promethea as Sephiroth journey)",
+      "Eternalism/Block Universe Theory (Dr. Manhattan's temporal perception)",
+      "Two-stage closure model (artist closes on script, reader closes on comic)"
+    ],
+    "sequence_pairs": ["Morrison"]
+  },
+  "quick_reference": {
+    "core_operations": [
+      "Establish rigid grid baseline (9-panel standard)",
+      "Use deviation from grid for emphasis (larger panel = slower tempo = emphasis)",
+      "Create palindrome/symmetry structures with center as pivot",
+      "Layer intertextual references at multiple competence levels",
+      "Embed parallel narratives that comment on main story",
+      "Overdetermine scripts (more information than can be shown)",
+      "Begin with IDEA (theme) before PLOT (events)"
+    ],
+    "key_constraints": [
+      "Structure precedes content",
+      "Constraint enables creativity",
+      "Architecture is meaning",
+      "Initiation is the reader's journey",
+      "Mastery must precede deconstruction",
+      "Density must serve story not demonstrate cleverness",
+      "Transitions must remain invisible",
+      "Discomfort prevents formula"
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "id": "gaiman-sandman",
+  "creator": "Neil Gaiman",
+  "work": "The Sandman",
+  "category": "Comics",
+  "axioms": [
+    {
+      "id": "NG-A0",
+      "name": "Stories as Ontology",
+      "statement": "Stories are the only thing worth dying for. Story is not decoration but ontology; characters exist through and as their narratives. Dream is his stories.",
+      "derivations": ["Dream literally dies for/as his stories", "Characters exist through their narratives", "Story constitutes being, not merely describes it"]
+    },
+    {
+      "id": "NG-A1",
+      "name": "Mythic Transformation as Ownership",
+      "statement": "Myth is public property; transformation is ownership. All myths belong to everyone; the artist's claim comes from how they remix, recontextualize, and make the ancient speak to the present.",
+      "derivations": ["Continuation: Take myth where original ended, continue the story", "Recontextualization: Place myth in new setting/era while preserving core", "Perspective Shift: Tell known myth from different character's POV", "Synthesis: Combine elements from multiple mythic traditions", "Inversion: Reverse the expected meaning while honoring the form"]
+    },
+    {
+      "id": "NG-A2",
+      "name": "Anthology as Meaning",
+      "statement": "The anthology is not digression; it is the point. Standalone episodes are not interruptions of the main arc but constitute its meaning. The macro-narrative emerges from micro-narrative accumulation.",
+      "derivations": ["Standalone issues constitute meaning, not interrupt it", "Macro-arc coherence through micro-narrative accumulation", "Each unit functions as complete story AND contributes to whole"]
+    },
+    {
+      "id": "NG-A3",
+      "name": "Personified Abstraction Agency",
+      "statement": "Personified abstractions must still want things. Even cosmic entities require desire, agency, and psychological depth. Dream, Death, Desire—each is both concept and character with needs.",
+      "derivations": ["Each Endless has desires, conflicts, psychology", "Cosmic entities require psychological depth", "Abstraction must have agency to drive narrative"]
+    },
+    {
+      "id": "NG-A4",
+      "name": "Tragic Stasis",
+      "statement": "Tragedy is the refusal to change. Unlike Ovidian metamorphosis where transformation saves or punishes, the tragic mode emerges when a character cannot or will not transform despite every opportunity.",
+      "derivations": ["Dream's inability to change is his tragic flaw", "Refusal to transform leads to doom", "Stasis equals destruction while change equals survival"]
+    }
+  ],
+  "structural_hierarchy": {
+    "levels": [
+      {
+        "level": 1,
+        "name": "Complete Arc",
+        "description": "The 75-issue totality from 'Sleep of the Just' to 'The Wake'",
+        "elements": ["Must form complete tragedy with beginning, middle, end"]
+      },
+      {
+        "level": 2,
+        "name": "Trade Collection",
+        "description": "Major structural division (~7 issues average)",
+        "elements": ["Preludes & Nocturnes", "The Doll's House", "Dream Country", "Season of Mists", "A Game of You", "Fables & Reflections", "Brief Lives", "World's End", "The Kindly Ones", "The Wake"]
+      },
+      {
+        "level": 3,
+        "name": "Arc",
+        "description": "Multi-issue storyline with unified action",
+        "elements": ["Must advance macro-narrative while being satisfying alone"]
+      },
+      {
+        "level": 4,
+        "name": "Single Issue",
+        "description": "Self-contained narrative unit (22-24 pages)",
+        "elements": ["Must function as complete story AND contribute to whole"]
+      },
+      {
+        "level": 5,
+        "name": "Embedded Tale",
+        "description": "Story told by character within story",
+        "elements": ["Must reflect/refract themes of containing narrative"]
+      },
+      {
+        "level": 6,
+        "name": "Mythic Fragment",
+        "description": "Quoted, adapted, or remixed myth element",
+        "elements": ["Must transform source while honoring its power"]
+      }
+    ]
+  },
+  "core_algorithms": [
+    {
+      "name": "Anthology-Arc Integration",
+      "purpose": "Balance episodic anthology appeal with macro-arc coherence",
+      "pseudocode": "FOR each issue IN sequence: IF spine_issue THEN advance_macro_arc(); ELIF anthology_issue THEN ensure_thematic_connection(); IF anthology_count > 6 THEN return_to_spine(); verify_arc_completion()",
+      "inputs": ["issue_sequence", "macro_arc", "issue_type (spine/rib/anthology)"],
+      "outputs": ["balanced_narrative", "arc_completion_status"]
+    },
+    {
+      "name": "Embedded Narrative Protocol",
+      "purpose": "Create productive interference between narrative levels through embedding",
+      "pseudocode": "assess_narrator_reliability(); apply_visual_markers(art_style, panel_borders, color_palette, typography); IF NOT reflects_container_themes THEN raise_error(); set_revelation_target(container.hidden_theme)",
+      "inputs": ["container_narrative", "embedded_story", "narrator", "embedding_depth"],
+      "outputs": ["framed_narrative", "thematic_reflection"]
+    },
+    {
+      "name": "Mythic Substitution",
+      "purpose": "Transform mythic source material for contemporary narrative",
+      "pseudocode": "extract_core(archetype, pattern, meaning, power); SWITCH mode: continuation -> extend_beyond_ending(); recontextualization -> transplant_to_new_setting(); perspective_shift -> retell_from_alternative_pov(); synthesis -> combine_traditions(); inversion -> reverse_meaning_preserve_form(); validate_mythic_resonance()",
+      "inputs": ["source_myth", "transformation_mode", "target_narrative"],
+      "outputs": ["transformed_myth", "mythic_resonance_score"]
+    },
+    {
+      "name": "Tonal Modulation",
+      "purpose": "Demonstrate mastery through genre-shifting across the work",
+      "pseudocode": "FOR each issue: IF current_genre == previous_genre THEN flag_monotony(); ensure_collection_has_minimum_4_genres(); allow_intentional_tonal_whiplash()",
+      "inputs": ["issues", "genre_registers"],
+      "outputs": ["genre_sequence", "range_verification"]
+    },
+    {
+      "name": "Protagonist Presence Oscillation",
+      "purpose": "Manage protagonist absence as narrative strategy",
+      "pseudocode": "calculate_presence_type(central/peripheral/shadow/absent); IF absent OR shadow THEN verify_absence_justification(); justify_via(domain_scope, endless_spotlight, fatigue_prevention, anticipation_building)",
+      "inputs": ["issue", "dream_panel_percentage", "dream_referenced", "dream_appears"],
+      "outputs": ["presence_type", "absence_justification"]
+    },
+    {
+      "name": "Endless Linking",
+      "purpose": "Connect disparate narratives through Endless family members",
+      "pseudocode": "extract_themes(story_a, story_b); FOR endless IN available_endless: IF thematic_overlap(endless.domains, story_themes) THEN create_endless_link(); FALLBACK: use_dream_as_universal_connector()",
+      "inputs": ["story_a", "story_b", "available_endless"],
+      "outputs": ["endless_link", "connected_narratives"]
+    },
+    {
+      "name": "Tragic Stasis",
+      "purpose": "Build tragedy through protagonist's refusal to transform",
+      "pseudocode": "FOR opportunity IN transformation_opportunities: IF NOT protagonist.can_accept(change) THEN decline(); record_missed_opportunity(); stasis_count++; IF stasis_count >= DOOM_THRESHOLD THEN initiate_tragic_conclusion()",
+      "inputs": ["protagonist", "transformation_opportunities", "doom_threshold"],
+      "outputs": ["tragic_conclusion", "unchanged_protagonist"]
+    }
+  ],
+  "diagnostic_questions": [
+    {"id": "Q1", "question": "Can each major unit (issue/chapter) function as standalone story?", "valid_if": "YES"},
+    {"id": "Q2", "question": "Do standalone units still contribute to macro-arc meaning?", "valid_if": "YES"},
+    {"id": "Q3", "question": "Is there alternation between arc-advancing and anthology units?", "valid_if": "YES"},
+    {"id": "Q4", "question": "Does the protagonist have justified absences?", "valid_if": "YES"},
+    {"id": "Q5", "question": "Are there stories-within-stories at 2+ levels?", "valid_if": "YES"},
+    {"id": "Q6", "question": "Do embedded tales reflect/refract the containing narrative's themes?", "valid_if": "YES"},
+    {"id": "Q7", "question": "Are narrator reliability levels varied and intentional?", "valid_if": "YES"},
+    {"id": "Q8", "question": "Does embedding create productive distance for difficult content?", "valid_if": "YES"},
+    {"id": "Q9", "question": "Are mythic sources transformed, not merely referenced?", "valid_if": "YES"},
+    {"id": "Q10", "question": "Do remixed myths retain emotional power from originals?", "valid_if": "YES"},
+    {"id": "Q11", "question": "Are multiple mythic traditions synthesized coherently?", "valid_if": "YES"},
+    {"id": "Q12", "question": "Does transformation claim ownership through innovation?", "valid_if": "YES"},
+    {"id": "Q13", "question": "Are 4+ distinct genre registers deployed across the work?", "valid_if": "YES"},
+    {"id": "Q14", "question": "Do genre shifts occur between adjacent units?", "valid_if": "YES"},
+    {"id": "Q15", "question": "Is tonal range demonstrated as mastery, not inconsistency?", "valid_if": "YES"},
+    {"id": "Q16", "question": "Does protagonist absence serve clear narrative purpose?", "valid_if": "YES"},
+    {"id": "Q17", "question": "Do secondary characters carry narrative during absence?", "valid_if": "YES"},
+    {"id": "Q18", "question": "Is anticipation built through delayed protagonist return?", "valid_if": "YES"},
+    {"id": "Q19", "question": "Is protagonist offered opportunities to change?", "valid_if": "YES"},
+    {"id": "Q20", "question": "Does protagonist's refusal/inability to change drive tragedy?", "valid_if": "YES"},
+    {"id": "Q21", "question": "Does mens pristina (core nature) remain constant to the doom?", "valid_if": "YES"}
+  ],
+  "theoretical_correspondences": {
+    "maps_to": [
+      "Campbell Monomyth (subverted)",
+      "Aristotelian Tragedy (hamartia, peripeteia, anagnorisis, catharsis)",
+      "Genette's Narrative Levels",
+      "Booth's Unreliable Narrator",
+      "Bakhtin's Heteroglossia",
+      "Barthes' S/Z Codes",
+      "McCloud's Sequential Art Theory",
+      "Lacanian/Derridean narrative structure"
+    ],
+    "sequence_pairs": ["Ovid-Metamorphoses"]
+  },
+  "quick_reference": {
+    "core_operations": [
+      "MACRO_ARC: Tragedy spanning 75 issues",
+      "ANTHOLOGY: Standalones that accrue meaning",
+      "EMBEDDING: Stories within stories (max 4 levels)",
+      "REMIXING: Myths transformed through continuation/recontextualization/perspective-shift/synthesis/inversion",
+      "MODULATION: Genre-shifting across horror/fantasy/literary/comedy/tragedy/romance/metafiction/mythic",
+      "ABSENCE: Protagonist's productive withdrawal",
+      "FAMILY: Endless as linking device across narratives"
+    ],
+    "key_constraints": [
+      "Max embedding depth: 4 levels",
+      "Anthology drift limit: 6 consecutive standalone issues before returning to spine",
+      "Minimum genre registers per collection: 4",
+      "Protagonist absence must always be justified",
+      "Embedded tales must reflect container themes",
+      "Mythic transformations must retain emotional power",
+      "Tragic stasis: protagonist cannot truly transform, leading to doom"
+    ]
+  }
+}

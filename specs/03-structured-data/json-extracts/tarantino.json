@@ -1,0 +1,218 @@
+{
+  "id": "tarantino",
+  "creator": "Quentin Tarantino",
+  "work": "Pulp Fiction / Kill Bill / Inglourious Basterds",
+  "category": "Film",
+  "axioms": [
+    {
+      "id": "QT-A0",
+      "name": "Artistic Theft",
+      "statement": "Good artists borrow, great artists steal. Reference is not homage but absorption; genre elements become fully yours through transformation.",
+      "derivations": ["Steal, don't borrow (full absorption)", "Sources as conversation", "Transformation, not photocopying"]
+    },
+    {
+      "id": "QT-A1",
+      "name": "Dialogue as Action",
+      "statement": "Dialogue IS action if done correctly. A conversation can carry more tension, stakes, and narrative momentum than any action sequence.",
+      "derivations": ["Action punctuates dialogue scenes", "Tangent conversation reveals character", "Extended scenes beyond convention"]
+    },
+    {
+      "id": "QT-A2",
+      "name": "Genre as Conversation",
+      "statement": "Genre is a conversation, not a constraint. Sub-genres provide structural scaffolding and audience expectations that enable rather than limit creative freedom.",
+      "derivations": ["Genre enables, not constrains", "Multiple genres can coexist", "Genre collision generates energy"]
+    },
+    {
+      "id": "QT-A3",
+      "name": "Chronology as Choice",
+      "statement": "Chronology is a choice, not an obligation. The order of telling exists to serve resonance, not merely to report sequence.",
+      "derivations": ["Scramble for resonance, not complexity", "Dramatic irony through displacement", "Resurrection structure for elegiac quality"]
+    },
+    {
+      "id": "QT-A4",
+      "name": "Rubber Band Suspense",
+      "statement": "Suspense is a rubber band. Stretch it and stretch it; the pleasure is in the stretching. Violence should be deferred until deferral itself becomes unbearable.",
+      "derivations": ["Announce threat early", "Defer resolution beyond expectation", "Brief payoff after long buildup"]
+    },
+    {
+      "id": "QT-A5",
+      "name": "75/25 Rule",
+      "statement": "75% of stories work better linear; 25% gain resonance from non-linear telling. Know which you have.",
+      "derivations": ["Test for resonance gain before scrambling", "Not on a crusade against linear storytelling", "Non-linear must create meaning"]
+    }
+  ],
+  "structural_hierarchy": {
+    "levels": [
+      {
+        "level": 1,
+        "name": "Film",
+        "description": "Complete work spanning multiple storylines",
+        "elements": ["Must resolve all threads, though not necessarily in chronological order"]
+      },
+      {
+        "level": 2,
+        "name": "Chapter",
+        "description": "Named/titled segment with its own arc",
+        "elements": ["Must function as semi-autonomous unit while serving whole", "Title cards signal tonal/POV shifts"]
+      },
+      {
+        "level": 3,
+        "name": "Scene",
+        "description": "Extended dialogue-action sequence",
+        "elements": ["Typically longer than industry standard", "Dialogue carries weight", "10-20 minute scenes common"]
+      },
+      {
+        "level": 4,
+        "name": "Beat",
+        "description": "Moment of tension escalation or power shift",
+        "elements": ["Often invisible to characters but palpable to audience", "Camera follows power holder"]
+      },
+      {
+        "level": 5,
+        "name": "Payoff Moment",
+        "description": "Violence, revelation, or confrontation",
+        "elements": ["Must justify all prior deferral", "Brief and efficient", "Buildup:Violence ratio 5:1 or greater"]
+      }
+    ]
+  },
+  "core_algorithms": [
+    {
+      "name": "Non-Linear Chronology Algorithm",
+      "purpose": "Determine whether and how to scramble story chronology for maximum resonance",
+      "pseudocode": "INPUT: story_in_chronological_order\nQUESTION: Does scrambling create meaning?\nTEST: Does order-change reveal character differently? Create dramatic irony? Produce surprise + inevitability? Generate thematic resonance?\nIF any criterion stronger: Consider non-linear, apply 75/25 rule\nIF no criterion stronger: Tell linearly",
+      "inputs": ["story_segments", "effect_goals", "chronological_order"],
+      "outputs": ["optimal_arrangement", "scramble_type", "resonance_justification"]
+    },
+    {
+      "name": "Dialogue-as-Action Protocol",
+      "purpose": "Structure dialogue scenes to carry tension and stakes typically assigned to action sequences",
+      "pseudocode": "SETUP: Seemingly casual, tangential conversation\nSTAKES_REVELATION: True stakes become gradually apparent through subtext\nPOWER_EXCHANGE: Control shifts between participants, camera follows power\nSTRETCHING: Tension stretched beyond comfort, violence anticipated but deferred\nRELEASE: Brief, shocking violence or philosophical resolution",
+      "inputs": ["characters", "hidden_stakes", "power_dynamics"],
+      "outputs": ["extended_dialogue_scene", "power_shift_beats", "tension_curve"]
+    },
+    {
+      "name": "Tension Through Deferral System",
+      "purpose": "Maximize suspense by announcing threats early and deferring payoff as long as possible",
+      "pseudocode": "PHASE 1: Announce threat explicitly or implicitly\nPHASE 2: Deny immediate resolution, discuss other things\nPHASE 3: Stretch through politeness, maintain social facade\nPHASE 4: Incremental revelation, dramatic irony deepens\nPHASE 5: Breaking point approach, facade untenable\nPHASE 6: Release - violence brief, shocking, contrasts with buildup",
+      "inputs": ["threat", "characters", "social_context"],
+      "outputs": ["tension_arc", "deferral_beats", "release_moment"]
+    },
+    {
+      "name": "Chapter/Segment Architecture",
+      "purpose": "Create semi-autonomous narrative segments that work independently while serving the whole",
+      "pseudocode": "TEST_1: Could segment work as standalone short film?\nTEST_2: Does it enrich understanding of other segments?\nTEST_3: Why is this segment placed HERE in sequence?\nVALIDATION: Each segment must pass all three tests",
+      "inputs": ["story_segments", "thematic_connections", "character_overlap"],
+      "outputs": ["chapter_structure", "title_cards", "placement_justification"]
+    },
+    {
+      "name": "Genre Pastiche Management",
+      "purpose": "Integrate multiple genre references at varying levels of visibility",
+      "pseudocode": "LEVEL 1: Invisible absorption (viewer need not recognize)\nLEVEL 2: Textured homage (recognizable to fans, works without)\nLEVEL 3: Explicit quotation (rewards recognition)\nLEVEL 4: Meta-commentary (comments on source)\nBALANCE: 70% Level 1-2, 30% Level 3-4",
+      "inputs": ["source_genres", "reference_library", "target_audience"],
+      "outputs": ["reference_density_map", "collision_points", "integration_levels"]
+    },
+    {
+      "name": "Mexican Standoff Pattern",
+      "purpose": "Create equilibrium situations where multiple parties have incompatible goals and any action triggers mutual destruction",
+      "pseudocode": "PHASE 1: CONVERGENCE - Multiple armed parties, incompatible goals\nPHASE 2: EQUILIBRIUM - Weapons raised, stasis through terror\nPHASE 3: ESCALATION - Dialogue increases tension, new information\nPHASE 4: RESOLUTION - Carnage, negotiated exit, external interruption, or philosophical resolution",
+      "inputs": ["parties", "incompatible_goals", "power_balance"],
+      "outputs": ["standoff_structure", "resolution_type", "survivor_logic"]
+    }
+  ],
+  "diagnostic_questions": [
+    {
+      "id": "Q1",
+      "question": "Have you written the story in chronological order first?",
+      "valid_if": "Yes - chronological draft exists before scrambling"
+    },
+    {
+      "id": "Q2",
+      "question": "Does non-linear arrangement add resonance, or just complexity?",
+      "valid_if": "Adds resonance through dramatic irony, character revelation, or thematic connection"
+    },
+    {
+      "id": "Q3",
+      "question": "Which segments gain from displacement?",
+      "valid_if": "Specific segments identified with clear resonance justification"
+    },
+    {
+      "id": "Q4",
+      "question": "Does scrambled order create productive dramatic irony?",
+      "valid_if": "Audience knows more than characters, creating tension"
+    },
+    {
+      "id": "Q5",
+      "question": "Apply 75/25 test: Is this in the 25% that benefits from non-linearity?",
+      "valid_if": "Clear case for non-linear treatment established"
+    },
+    {
+      "id": "Q6",
+      "question": "Can your dialogue scenes carry the tension usually assigned to action?",
+      "valid_if": "Dialogue scenes sustain 10+ minutes with escalating stakes"
+    },
+    {
+      "id": "Q7",
+      "question": "Do your characters have distinctive voices capable of sustaining long scenes?",
+      "valid_if": "Each character has identifiable speech patterns and worldview"
+    },
+    {
+      "id": "Q8",
+      "question": "Have you identified your 'Sicilian scene' where dialogue becomes life-or-death?",
+      "valid_if": "At least one scene where weaker character gains moral victory through speech"
+    },
+    {
+      "id": "Q9",
+      "question": "What threat is announced early?",
+      "valid_if": "Threat established in first act, deferred throughout"
+    },
+    {
+      "id": "Q10",
+      "question": "How long can you defer the payoff?",
+      "valid_if": "Buildup to violence ratio is 5:1 or greater"
+    },
+    {
+      "id": "Q11",
+      "question": "Where are the 'politeness becomes terrifying' moments?",
+      "valid_if": "Social facade masks mortal stakes in identified scenes"
+    },
+    {
+      "id": "Q12",
+      "question": "Which sub-genres inform this work?",
+      "valid_if": "Multiple sub-genres identified with integration strategy"
+    },
+    {
+      "id": "Q13",
+      "question": "What's your reference density strategy?",
+      "valid_if": "70% invisible/textured, 30% explicit/meta balance achieved"
+    },
+    {
+      "id": "Q14",
+      "question": "If mixing genres, where are the collision points?",
+      "valid_if": "Collision type identified (sequential, layered, tonal whiplash, hybrid)"
+    }
+  ],
+  "theoretical_correspondences": {
+    "maps_to": [
+      "Ovid's Metamorphoses - non-linear linking masters, tonal modulation, linking devices",
+      "Larry David - dialogue as action/conflict, extended scenes, collision concept, digressive monologue"
+    ],
+    "sequence_pairs": ["Ovid-Metamorphoses", "Larry-David-Curb"]
+  },
+  "quick_reference": {
+    "core_operations": [
+      "NON_LINEAR(story, for_resonance)",
+      "DIALOGUE_AS_ACTION(tension_carriers)",
+      "DEFERRAL(threat_announced -> payoff_delayed)",
+      "CHAPTER_ARCHITECTURE(autonomous_yet_integrated)",
+      "GENRE_COLLISION(multiple_sub_genres)",
+      "STANDOFF_DYNAMICS(competing_interests)"
+    ],
+    "key_constraints": [
+      "Chronology: IF scramble creates irony/resonance -> scramble; IF scramble just complicates -> stay linear; Apply 75/25 rule",
+      "Dialogue: Tangent -> Tension -> Power Shift -> Defer -> Release; The band stretches and stretches",
+      "Violence: Announce threat -> Defer resolution -> Brief payoff; Buildup:Violence ratio = 5:1 or greater",
+      "Chapters: Each works alone AND contributes to whole; Title cards signal tonal/POV shifts",
+      "Scene Power: WHO controls NOW? WHEN does power shift? HOW does camera reflect power holder? WHY is violence deferred? WHAT tangent reveals character?"
+    ]
+  }
+}

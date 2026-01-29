@@ -1,0 +1,178 @@
+{
+  "id": "kirby-new-gods",
+  "creator": "Jack Kirby",
+  "work": "Fourth World / New Gods",
+  "category": "Comics",
+  "axioms": [
+    {
+      "id": "JK-A0",
+      "name": "Myth is the Natural Mode of the Superhero",
+      "statement": "Kirby consciously positioned superheroes as modern mythology, understanding that the genre's natural register is the mythic, not the realistic. The superhero, for Kirby, is not a person with powers but a concept embodied—a living symbol operating at archetypal frequency.",
+      "derivations": [
+        "character.register = MYTHIC",
+        "character.function = SYMBOLIC_EMBODIMENT",
+        "NOT character.function = REALISTIC_PERSON"
+      ]
+    },
+    {
+      "id": "JK-A1",
+      "name": "Good and Evil Are Real Forces; Nuance is for Smaller Stories",
+      "statement": "Kirby created a strict moral dualism: New Genesis (paradise) versus Apokolips (hell). This is not naivete but deliberate mythic simplification. The dualism operates at the cosmic/structural level while individual psychology remains nuanced.",
+      "derivations": [
+        "COSMIC_LEVEL: binary_opposition(GOOD, EVIL)",
+        "INDIVIDUAL_LEVEL: internal_conflict_permitted()",
+        "cosmic_structure.clarity > individual.complexity",
+        "individual.complexity != 0"
+      ]
+    },
+    {
+      "id": "JK-A2",
+      "name": "Every Character Must Be Visually Iconic",
+      "statement": "Kirby designed characters as immediate visual communications—readable at a glance, memorable after one panel. Each character possesses a visual personality communicated through silhouette, color, and symbolic attributes.",
+      "derivations": [
+        "C.silhouette.recognizable = TRUE",
+        "C.design.communicates_essence = TRUE",
+        "C.first_impression.memorable = TRUE",
+        "TEST: Can character be recognized in silhouette alone?"
+      ]
+    },
+    {
+      "id": "JK-A3",
+      "name": "Create, Don't Imitate",
+      "statement": "The principle is not isolation from influence but transmutation of influence into originality. Kirby absorbed Classical, Norse, and Biblical mythology to create something genuinely new.",
+      "derivations": [
+        "ABSORB influences[classical, norse, biblical, pulp, cinema]",
+        "TRANSMUTE through personal_vision",
+        "OUTPUT original_synthesis",
+        "NOT: copy(source)",
+        "NOT: pastiche(sources)",
+        "YES: synthesize_through_self(influences)"
+      ]
+    }
+  ],
+  "structural_hierarchy": {
+    "levels": [
+      {
+        "level": 1,
+        "name": "Personal",
+        "description": "Character vs. self or character vs. character conflicts",
+        "elements": ["Orion's rage", "individual combat"]
+      },
+      {
+        "level": 2,
+        "name": "Planetary",
+        "description": "World-scale conflicts between realms",
+        "elements": ["New Genesis vs. Apokolips", "armies", "invasions", "planetary defenses"]
+      },
+      {
+        "level": 3,
+        "name": "Cosmic",
+        "description": "Conflicts between fundamental forces of existence",
+        "elements": ["The Source vs. Anti-Life", "fundamental forces"]
+      },
+      {
+        "level": 4,
+        "name": "Philosophical",
+        "description": "Abstract ideological conflicts",
+        "elements": ["Freedom vs. Tyranny", "Life vs. Anti-Life", "Creation vs. Destruction"]
+      }
+    ]
+  },
+  "core_algorithms": [
+    {
+      "name": "generate_dual_world_cosmology",
+      "purpose": "Create a bifurcated mythological universe from a primordial unity",
+      "pseudocode": "INPUT: primordial_unity -> CATASTROPHIC_DIVISION -> MORAL_POLARIZATION (world_A=GOOD, world_B=EVIL) -> RULER_OPPOSITION (benevolent vs tyrannical patriarch) -> PACT_MECHANISM (exchange sons) -> THEMATIC_DISTRIBUTION -> OUTPUT: dual_world_system with inherent_conflict",
+      "inputs": ["primordial_unity (Urgrund)"],
+      "outputs": ["dual_world_system with inherent_conflict", "New Genesis (paradise)", "Apokolips (hell)"]
+    },
+    {
+      "name": "generate_fourth_world_character",
+      "purpose": "Create characters as embodiments of abstract concepts",
+      "pseudocode": "INPUT: abstract_concept -> CONCEPT_DEFINITION (one character = one concept) -> VISUAL_TRANSLATION (shape_language, color_palette, costume_elements) -> NAME_ALIGNMENT (name suggests concept) -> BEHAVIOR_PATTERNS (actions reinforce concept) -> RELATIONSHIPS (conceptual opposition/harmony) -> OUTPUT: unified character",
+      "inputs": ["abstract_concept"],
+      "outputs": ["character where concept, visual, name, behavior = unified"]
+    },
+    {
+      "name": "design_kirby_machine",
+      "purpose": "Create technology as sacred totemic objects",
+      "pseudocode": "ESTABLISH_MEANING (purpose, alignment) -> PRIMARY_SHAPES (2-3 large shapes conveying purpose) -> VISUAL_PERSONALITY (evil=angular/dark, good=rounded/light) -> KIRBY_KRACKLE (cosmic energy dots) -> SYMBOLIC_ELEMENTS (recognizable symbols) -> OUTPUT: machine that communicates meaning instantly",
+      "inputs": ["machine.purpose", "machine.alignment"],
+      "outputs": ["machine that communicates meaning instantly"]
+    },
+    {
+      "name": "generate_fourth_world_narrative",
+      "purpose": "Master algorithm for creating Fourth World stories",
+      "pseudocode": "INITIALIZE (conflict_scale=COSMIC, moral_framework=MANICHAEAN_WITH_NUANCE, register=OPERATIC) -> CONCEPT_SELECTION -> CHARACTER_EMBODIMENT -> DUAL_WORLD_MAPPING -> TECHNO_THEOLOGICAL_ELEMENTS -> STAKES_ESCALATION -> VISUAL_PRESENTATION -> RESOLUTION_PATTERN (good_triumphs BUT struggle_continues) -> OUTPUT: Fourth_World_story",
+      "inputs": ["abstract_conflict selection", "character concepts"],
+      "outputs": ["Fourth_World_story"]
+    },
+    {
+      "name": "kirby_visual_storytelling",
+      "purpose": "Create comics pages with mythological weight",
+      "pseudocode": "FOR each page: LAYOUT_DECISION (normal=grid, action=break grid, important=splash, overwhelming=double spread) -> FOR each panel: COMPOSITION (focal point, eye guidance, strategic blacks) + FIGURE_WORK (foreshortening, exaggerated anatomy) + ENERGY_EFFECTS (Kirby_Krackle, motion lines) + MACHINE_DESIGN -> DIALOGUE_PLACEMENT (declarative, slang+mythic) -> OUTPUT: page of comics mythology",
+      "inputs": ["story sequence", "key moments", "character actions"],
+      "outputs": ["page of comics mythology"]
+    }
+  ],
+  "diagnostic_questions": [
+    {
+      "id": "Q1",
+      "question": "Can the character be recognized in silhouette alone?",
+      "valid_if": "Yes - the character's visual design communicates identity through distinctive shapes"
+    },
+    {
+      "id": "Q2",
+      "question": "Does the conflict connect to the cosmic/philosophical level?",
+      "valid_if": "Yes - all battles symbolize the larger war between Source and Anti-Life"
+    },
+    {
+      "id": "Q3",
+      "question": "Does the technology function as sacred object rather than explained mechanism?",
+      "valid_if": "Yes - technology operates beyond human understanding and connects to cosmic/spiritual forces"
+    },
+    {
+      "id": "Q4",
+      "question": "Does the character embody a single abstract concept?",
+      "valid_if": "Yes - character = embodiment(concept), not person + powers"
+    },
+    {
+      "id": "Q5",
+      "question": "Does the dialogue register match the mythic content?",
+      "valid_if": "Yes - declarative, grandiose, proclamatory; no subtle implication or mundane small talk"
+    }
+  ],
+  "theoretical_correspondences": {
+    "maps_to": [
+      "Manichaean dualism",
+      "Jungian archetypes",
+      "Norse mythology (Ragnarok structure)",
+      "Biblical cosmology (paradise vs. hell)",
+      "William Blake's personal mythology",
+      "Modern superhero genre theory"
+    ],
+    "sequence_pairs": ["Tolkien"]
+  },
+  "quick_reference": {
+    "core_operations": [
+      "CATASTROPHIC_DIVISION: primordial unity splits into opposed worlds",
+      "MORAL_POLARIZATION: worlds assigned absolute good/evil alignment",
+      "CHARACTER_EMBODIMENT: one character = one abstract concept given flesh",
+      "VISUAL_ICONICITY: design for instant recognition and meaning",
+      "TECHNO_THEOLOGY: technology as sacred, totemic objects",
+      "STAKES_ESCALATION: personal -> planetary -> cosmic -> philosophical",
+      "OPERATIC_REGISTER: mythic content requires heightened presentation",
+      "SPLASH_PAGE_AS_CATHEDRAL: full-page art evokes awe"
+    ],
+    "key_constraints": [
+      "cosmic_structure.clarity > individual.complexity",
+      "character.register = MYTHIC (never realistic)",
+      "Higher conflict levels contain and contextualize lower levels",
+      "All conflicts must connect to Anti-Life vs Source",
+      "Evil machines = angular/dark; Good machines = rounded/light",
+      "No subtle implication, ironic understatement, or casual conversation",
+      "Victory = temporary; War = eternal (until finale)",
+      "Create original synthesis, never copy or pastiche sources"
+    ]
+  }
+}

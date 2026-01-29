@@ -1,0 +1,285 @@
+{
+  "id": "final-fantasy",
+  "creator": "Square Enix (Hironobu Sakaguchi / Yoshinori Kitase / Kazushige Nojima)",
+  "work": "Final Fantasy series (IV, VI, VII, X)",
+  "category": "Interactive",
+  "axioms": [
+    {
+      "id": "FF-A0",
+      "name": "Every Numbered Entry Is a Reinvention, Not a Sequel",
+      "statement": "Each numbered Final Fantasy constitutes a fresh universe, cast, and thematic exploration while maintaining structural and tonal DNA.",
+      "derivations": [
+        "No two numbered entries share world, characters, or direct plot continuity",
+        "Recurring elements (Chocobos, Cid, crystals, job systems) as thematic constants, not narrative continuity",
+        "Narrative DNA includes: ensemble_cast, emotional_weight, hope_through_loss, mechanical_identity, journey_structure, operatic_register"
+      ]
+    },
+    {
+      "id": "FF-A1",
+      "name": "Emotional Impact Justifies Spectacle",
+      "statement": "The primary design criterion for major narrative moments is emotional resonance; technical and narrative spectacle serves to amplify feeling, not replace it.",
+      "derivations": [
+        "Valid spectacle = emotional_impact * technical_achievement",
+        "Invalid spectacle = technical_achievement - emotional_purpose",
+        "Design priority: Feeling >> Showing"
+      ]
+    },
+    {
+      "id": "FF-A2",
+      "name": "The Party Is More Than One Hero",
+      "statement": "The ensemble party functions as a distributed protagonist; narrative weight distributes across multiple characters rather than concentrating in a single figure.",
+      "derivations": [
+        "Each party member has their own arc",
+        "Each party member has a spotlight sequence",
+        "Each party member has personal emotional stakes",
+        "Narrative weight distribution is democratic, not autocratic"
+      ]
+    },
+    {
+      "id": "FF-A3",
+      "name": "Systems Should Feel Like Story",
+      "statement": "Mechanical systems express character identity; abilities, battle behaviors, and progression systems encode narrative meaning.",
+      "derivations": [
+        "Limit Break = crisis + identity = moment of truth",
+        "Class system = who you are determines what you can do",
+        "Progression = growth as character, not just growth as stats",
+        "Ability design reflects character background and personality"
+      ]
+    },
+    {
+      "id": "FF-A4",
+      "name": "Loss as Engine, Hope as Destination",
+      "statement": "Tragedy propels narrative forward; it does not terminate it. Loss creates vacuum that demands filling with renewed purpose.",
+      "derivations": [
+        "Party member death transforms stakes permanently",
+        "World destruction raises stakes to maximum",
+        "Identity loss forces psychological reconstruction",
+        "Hope is earned through suffering, demonstrated not declared"
+      ]
+    },
+    {
+      "id": "FF-A5",
+      "name": "Operatic Register Is Valid",
+      "statement": "High emotion is not excess but essential mode. Melodrama as term of analysis, not dismissal. The JRPG inherits opera's willingness to feel publicly.",
+      "derivations": [
+        "Emotion scale is maximum legible: not subtle but sincere",
+        "Dialogue is declarative and emotional",
+        "Music includes leitmotif presence",
+        "Duration allows emotion to breathe"
+      ]
+    },
+    {
+      "id": "FF-A6",
+      "name": "Music Co-Narrates",
+      "statement": "Music is not accompaniment but co-narrator. Uematsu-Sakaguchi collaboration ensures player emotion is guided and sculpted through musical architecture.",
+      "derivations": [
+        "Each major character has identifying musical material (leitmotif)",
+        "Character introduction uses theme statement",
+        "Character crisis uses minor/slow theme variation",
+        "Character triumph uses major/bold theme variation",
+        "Party unity interweaves multiple character themes"
+      ]
+    },
+    {
+      "id": "FF-A7",
+      "name": "Spotlight Rotation Distributes Attention",
+      "statement": "Each character receives focused narrative attention through systematic rotation, preventing protagonist fatigue and ensuring ensemble investment.",
+      "derivations": [
+        "No character monopolizes attention for too long",
+        "Spotlight moments advance personal AND collective arcs",
+        "Mechanical relevance often accompanies narrative relevance",
+        "Non-spotlight characters remain present but in reactive support mode"
+      ]
+    }
+  ],
+  "structural_hierarchy": {
+    "levels": [
+      {
+        "level": 1,
+        "name": "Thematic Foundation",
+        "description": "Core theme selection and variation adapted to game world",
+        "elements": ["life_death_cycle", "hope_through_loss", "identity_crisis", "found_family", "challenge_authority"]
+      },
+      {
+        "level": 2,
+        "name": "Ensemble Construction",
+        "description": "Party construction with personal wounds, arcs, and mechanical identities",
+        "elements": ["personal_trauma", "redemption_journey", "ability_encoding", "relationship_web"]
+      },
+      {
+        "level": 3,
+        "name": "World and Threat",
+        "description": "Setting and antagonist design that establishes stakes",
+        "elements": ["thematic_setting", "antagonist_force", "stakes_definition"]
+      },
+      {
+        "level": 4,
+        "name": "Journey Structure",
+        "description": "Three-act structure with party assembly, trials, and resolution",
+        "elements": ["party_assembly", "threat_establishment", "spotlight_rotation", "losses", "final_confrontation"]
+      },
+      {
+        "level": 5,
+        "name": "Operatic Register",
+        "description": "Emotional mode implementation through dialogue, music, and spectacle",
+        "elements": ["declarative_dialogue", "emotional_architecture", "feeling_over_showing"]
+      },
+      {
+        "level": 6,
+        "name": "Loss and Hope Integration",
+        "description": "Strategic placement of loss for impact and hope earned through suffering",
+        "elements": ["major_loss_placement", "hope_earned", "finale_as_active_choice"]
+      },
+      {
+        "level": 7,
+        "name": "Mechanical-Narrative Synthesis",
+        "description": "Battle systems and progression expressing character identities",
+        "elements": ["identity_expression", "crisis_transformation", "growth_mapping"]
+      }
+    ]
+  },
+  "core_algorithms": [
+    {
+      "name": "ENSEMBLE_PROTAGONIST",
+      "purpose": "Construct party that collectively embodies the protagonist function",
+      "pseudocode": "for archetype in required_archetypes: create_character with personal_wound, thematic_function, mechanical_identity; establish relationship dynamics between all pairs; design individual arcs (introduction, development, crisis, resolution); forge party_identity through trials; return ensemble_protagonist",
+      "inputs": ["required_archetypes", "narrative_requirements"],
+      "outputs": ["ensemble_protagonist_party"]
+    },
+    {
+      "name": "SPOTLIGHT_ROTATION",
+      "purpose": "Manage systematic attention distribution across ensemble cast",
+      "pseudocode": "for each narrative_beat: if PARTY_WIDE then spotlight ALL; if location matches character.hometown then spotlight that character; if theme matches character.wound then spotlight that character; when spotlight shifts, pause previous arc and activate new one; non-spotlight characters enter REACTIVE_SUPPORT mode",
+      "inputs": ["party", "narrative_phase", "narrative_beats"],
+      "outputs": ["spotlight_sequence"]
+    },
+    {
+      "name": "OPTIONAL_ENSEMBLE_RECONSTRUCTION",
+      "purpose": "Implement World of Ruin pattern where player chooses party reconstruction after catastrophe",
+      "pseudocode": "catastrophe.scatter(party); start with minimal_party; remaining characters have optional recruitment requiring personal quests; game completable with minimal party but full experience requires seeking each member; recruited characters contribute to final confrontation speeches",
+      "inputs": ["party", "catastrophe_event"],
+      "outputs": ["player_authored_ensemble"]
+    },
+    {
+      "name": "ENSEMBLE_SAVES_PROTAGONIST",
+      "purpose": "Execute 'You're Not Alone' sequence where party rescues isolated protagonist",
+      "pseudocode": "protagonist discovers origin_trauma; protagonist withdraws and pushes away party; protagonist attempts solo progression with increasing desperation; each party member appears despite rejection and declares reason for staying; protagonist reintegrates understanding chosen_bonds > given_origin",
+      "inputs": ["protagonist", "party", "origin_trauma"],
+      "outputs": ["ensemble_interdependence"]
+    },
+    {
+      "name": "OPERATIC_DEATH_SCENE",
+      "purpose": "Construct death as emotional architecture with maximum impact",
+      "pseudocode": "establish character likeability and hope for future; integrate with party and player; deliver death SUDDENLY without death flags; frame as beautiful_terrible with ABSOLUTE permanence; portray party grief; remove character permanently (no resurrection); transform stakes and deepen investment",
+      "inputs": ["character", "narrative_context"],
+      "outputs": ["death_scene_with_maximum_emotional_weight"]
+    },
+    {
+      "name": "ABILITY_IDENTITY_MAPPING",
+      "purpose": "Design character abilities that express who they are",
+      "pseudocode": "character.combat_style = f(character.background); character.special_ability = f(character.identity); mechanical uniqueness equals narrative uniqueness",
+      "inputs": ["character_identity", "character_background"],
+      "outputs": ["character_ability_suite"]
+    },
+    {
+      "name": "LIMIT_BREAK_DESIGN",
+      "purpose": "Implement crisis-identity nexus where vulnerability unlocks power",
+      "pseudocode": "limit_gauge fills when character takes damage; gauge enables ultimate_ability when full; limit_break expresses character's response to crisis; FURY speeds gauge, SADNESS slows it",
+      "inputs": ["character_identity", "crisis_response_type"],
+      "outputs": ["limit_system_with_thematic_meaning"]
+    },
+    {
+      "name": "CLASS_CHANGE_AS_NARRATIVE",
+      "purpose": "Implement gameplay transformation as story transformation (Cecil paradigm)",
+      "pseudocode": "establish initial class with self-destructive mechanics; face trial requiring non-violence to pass; transform to new class with healing/protective abilities; reset level to 1 (genuine rebirth, not upgrade)",
+      "inputs": ["character", "transformation_trigger"],
+      "outputs": ["class_transformation_with_redemption_meaning"]
+    },
+    {
+      "name": "HOPE_AS_DESTINATION",
+      "purpose": "Structure hope as earned destination after tragedy",
+      "pseudocode": "villain presents nihilism thesis; each party member articulates personal reason for hope; party demonstrates hope through collective action; hope components: found_family, future_possibility, meaning_through_connection, beauty_worth_preserving, redemption_possibility",
+      "inputs": ["party", "villain_thesis"],
+      "outputs": ["hope_structure_earned_and_demonstrated"]
+    },
+    {
+      "name": "FINAL_SPEECH_PATTERN",
+      "purpose": "Execute final confrontation where each party member declares reason for fighting",
+      "pseudocode": "for each character in active_members: villain challenges meaning of existence; character responds with personal answer based on lived experience; party unites responses into collective statement; remind player of journeys, crystallize arcs, demonstrate collective strength",
+      "inputs": ["party", "villain"],
+      "outputs": ["final_speeches_affirming_hope"]
+    }
+  ],
+  "diagnostic_questions": [
+    {
+      "id": "Q1",
+      "question": "Does each party member have a unique personal wound and arc?",
+      "valid_if": "Every member has distinct trauma, spotlight sequence, and resolution"
+    },
+    {
+      "id": "Q2",
+      "question": "Do mechanical abilities express character identity?",
+      "valid_if": "Combat styles and special abilities reflect character backgrounds and personalities"
+    },
+    {
+      "id": "Q3",
+      "question": "Is the emotional register sincere rather than ironic?",
+      "valid_if": "High emotion is committed and genuine, not performed for show"
+    },
+    {
+      "id": "Q4",
+      "question": "Does loss function as narrative engine rather than endpoint?",
+      "valid_if": "Major losses are permanent, transformative, and propel characters toward hope"
+    },
+    {
+      "id": "Q5",
+      "question": "Does music function as co-narrator?",
+      "valid_if": "Leitmotifs present, themes vary with character states, unique tracks for unique moments"
+    },
+    {
+      "id": "Q6",
+      "question": "Is spotlight systematically rotated across ensemble?",
+      "valid_if": "No character monopolizes attention; each has personal spotlight moments"
+    },
+    {
+      "id": "Q7",
+      "question": "Are cutscenes earned through gameplay investment?",
+      "valid_if": "Cutscenes feel like payoff or setup, never interruption"
+    },
+    {
+      "id": "Q8",
+      "question": "Does the finale demonstrate hope as active choice?",
+      "valid_if": "Each character articulates reason for fighting; collective response to nihilism"
+    }
+  ],
+  "theoretical_correspondences": {
+    "maps_to": [
+      "Pixar (ensemble management, emotional sincerity, found family, loss as catalyst)",
+      "Bergman (interiority via close-up, confession sequences, identity dissolution)",
+      "Opera (arias for solo expression, duets for relationships, ensembles for collective emotion, leitmotifs, spectacle as internal state)"
+    ],
+    "sequence_pairs": ["Zelda", "Pixar"]
+  },
+  "quick_reference": {
+    "core_operations": [
+      "Construct ensemble protagonist with distributed narrative weight",
+      "Rotate spotlight systematically across party members",
+      "Design abilities that mechanically express character identity",
+      "Deploy loss as permanent, transformative narrative engine",
+      "Integrate music as co-narrator with leitmotif system",
+      "Apply operatic register with sincere high emotion",
+      "Structure hope as earned destination after tragedy",
+      "Execute final confrontation speech pattern for collective affirmation"
+    ],
+    "key_constraints": [
+      "Each numbered entry is reinvention, not sequel",
+      "Spectacle must serve emotional resonance, not replace it",
+      "Death must be sudden, permanent, and meaningful",
+      "Party bonds are democratic, not concentrated in single hero",
+      "Systems must feel like story, not separate from it",
+      "Operatic emotion requires sincerity, not ironic distance",
+      "Hope must be demonstrated through action, not merely declared",
+      "Player agency is bounded: high in battle/build, low in narrative outcome"
+    ]
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "id": "tolkien",
+  "creator": "J.R.R. Tolkien",
+  "work": "The Lord of the Rings / Silmarillion / On Fairy-Stories",
+  "category": "Literature",
+  "axioms": [
+    {
+      "id": "JT-A0",
+      "name": "Sub-Creation Axiom",
+      "statement": "Sub-creation is humanity's highest art and deepest right.",
+      "derivations": [
+        "The sub-creator does not merely imagine but makes",
+        "Secondary world exists as real achievement requiring craft",
+        "Humans participate in divine creativity through sub-creation",
+        "Secondary world must have inner consistency of reality"
+      ]
+    },
+    {
+      "id": "JT-A1",
+      "name": "Escape Vindication Axiom",
+      "statement": "Escape is not escapism; prisoners are right to desire escape.",
+      "derivations": [
+        "Escape from limitations (death, ugliness, sorrow, mechanism) is rational and noble",
+        "Escape is distinct from desertion of duty",
+        "Escape represents refusal to accept ultimate imprisonment",
+        "The Escape of the Prisoner differs fundamentally from the Flight of the Deserter"
+      ]
+    },
+    {
+      "id": "JT-A2",
+      "name": "Eucatastrophe Axiom",
+      "statement": "Eucatastrophe does not deny sorrow but denies defeat.",
+      "derivations": [
+        "Sudden turn toward joy while preserving all previous sorrow",
+        "Denies final defeat while acknowledging dyscatastrophe",
+        "Produces piercing glimpse of joy beyond walls of world",
+        "Not a trivial happy ending but requires full weight of dyscatastrophe"
+      ]
+    },
+    {
+      "id": "JT-A3",
+      "name": "Discovery Axiom",
+      "statement": "A world must feel discovered, not invented.",
+      "derivations": [
+        "Historical stratification creates multiple temporal layers",
+        "Incomplete information provides glimpsed depths",
+        "Internal consistency creates laws that resist authorial convenience",
+        "Philological grounding ensures names carry history"
+      ]
+    }
+  ],
+  "structural_hierarchy": {
+    "levels": [
+      {
+        "level": 0,
+        "name": "Cosmological",
+        "description": "Creation myth and ultimate reality",
+        "elements": ["Ainulindale", "Music of the Ainur", "Eru Iluvatar", "Flame Imperishable"]
+      },
+      {
+        "level": 1,
+        "name": "Mythological",
+        "description": "Divine beings and primordial events",
+        "elements": ["The Valar", "Two Trees", "Awakening of Elves"]
+      },
+      {
+        "level": 2,
+        "name": "Legendary",
+        "description": "Great tales known partially",
+        "elements": ["Silmarils", "First Age wars", "Beren and Luthien"]
+      },
+      {
+        "level": 3,
+        "name": "Historical",
+        "description": "Recorded chronicles and artifacts",
+        "elements": ["Rise and fall of Numenor", "Second Age kingdoms", "Last Alliance"]
+      },
+      {
+        "level": 4,
+        "name": "Recent Past",
+        "description": "Living memory and direct narrative",
+        "elements": ["Decline of Arnor", "Watch of Rangers", "Bilbo's adventure"]
+      },
+      {
+        "level": 5,
+        "name": "Narrative Present",
+        "description": "Current story events with full access",
+        "elements": ["Fellowship's journey", "War of the Ring", "Return of the King"]
+      }
+    ]
+  },
+  "core_algorithms": [
+    {
+      "name": "Sub-Creation Protocol",
+      "purpose": "Generate secondary world with inner consistency through language-first method",
+      "pseudocode": "PHASE 1: LINGUISTIC_GENESIS(phonological_aesthetic, morphology, lexicon) -> PHASE 2: HISTORICAL_CRYSTALLIZATION(derive_histories_from_names, stratify_temporal_layers, establish_cosmology) -> PHASE 3: NARRATIVE_EMERGENCE(identify_story_moments, select_viewpoint, compose_as_chronicle) -> PHASE 4: CONSISTENCY_CHECK(linguistics, history, physics, moral_law)",
+      "inputs": ["Creative impulse", "Linguistic aesthetic preferences"],
+      "outputs": ["Secondary world with inner consistency of reality"]
+    },
+    {
+      "name": "Eucatastrophe Engine",
+      "purpose": "Construct sudden joyous turn that denies defeat while preserving sorrow",
+      "pseudocode": "PHASE 1: DYSCATASTROPHE_APPROACH(establish_doom, close_escape_routes, maximize_sorrow) -> PHASE 2: THE_TURN(at_darkest_moment, beyond_protagonist_agency, through_failure_or_mercy_or_providence) -> PHASE 3: JOY_PRODUCTION(piercing_quality, glimpse_larger_pattern, preserve_sorrow) -> PHASE 4: AFTERMATH(world_changed, some_things_pass, joy_poignant_as_grief)",
+      "inputs": ["Narrative approaching dyscatastrophe"],
+      "outputs": ["Eucatastrophic moment producing piercing joy"]
+    },
+    {
+      "name": "Lore Stratification System",
+      "purpose": "Create perceived infinite depth through nested histories and glimpsed references",
+      "pseudocode": "LAYER_STRUCTURE(cosmological -> mythological -> legendary -> historical -> recent -> present) + INTEGRATION_TECHNIQUES(oblique_reference, song_fragments, artifact_encounters, linguistic_archaeology, elvish_perspective) WHERE perceived_depth = SUM(referenced_layers * mystery_quotient) AND mystery_quotient = 1 - explanation_completeness",
+      "inputs": ["Story set in narrative present"],
+      "outputs": ["World with perceived infinite depth"]
+    },
+    {
+      "name": "Heroic Scaffolding",
+      "purpose": "Construct hero embodying Northern Courage transformed by Christian hope via small hero lens",
+      "pseudocode": "NORTHERN_COURAGE(fight_on_despite_certain_defeat) + SMALL_HERO(domestic_origins, no_martial_tradition, physical_limitations, ordinary_attachments) -> HEROIC_ARC(ordinary_world -> reluctant_call -> trials -> isolation -> crisis_failure -> eucatastrophe -> bittersweet_return) WHERE effective_heroism = courage * humility * persistence AND power_level_has_minimal_weight",
+      "inputs": ["Story requiring protagonist"],
+      "outputs": ["Hero embodying Northern Courage + Christian Hope"]
+    },
+    {
+      "name": "Augustinian Evil Framework",
+      "purpose": "Construct evil as parasitic corruption that is ultimately self-defeating",
+      "pseudocode": "AXIOM_1: evil_cannot_create_only_corrupt -> AXIOM_2: evil_reduces_being_of_evildoer -> AXIOM_3: evil_is_self_consuming + RING_MECHANISM(amplifies_power, corrupts_through_power, cannot_be_wielded_for_good, destroyed_only_by_providence) CONTRAST_WITH_MANICHAEAN(evil_as_positive_substance) -> TOLKIEN_MODEL(evil_as_absence, cosmos_redeemable, good_wins_because_evil_parasitic)",
+      "inputs": ["Need for antagonist/evil force"],
+      "outputs": ["Evil that is parasitic, corrupting, ultimately self-defeating"]
+    },
+    {
+      "name": "Philological Worldbuilding",
+      "purpose": "Ground world in linguistic reality through language-first construction",
+      "pseudocode": "STEP 1: PHONOLOGICAL_AESTHETIC(consonants, vowels, syllables, stress) -> STEP 2: MORPHOLOGICAL_DEPTH(historical_grammar, sound_changes) -> STEP 3: NAMING_AS_WORLD_CREATION(places, persons carry etymology) -> STEP 4: ARCHAEOLOGICAL_TEXTURE(layer_languages_in_environment) -> STEP 5: TRANSLATION_FICTION(author_as_translator conceit)",
+      "inputs": ["Aesthetic preferences", "Historical linguistics knowledge"],
+      "outputs": ["World grounded in linguistic reality"]
+    }
+  ],
+  "diagnostic_questions": [
+    {
+      "id": "Q1",
+      "question": "Does the secondary world command Secondary Belief rather than mere suspension of disbelief?",
+      "valid_if": "Reader experiences active enchantment, not willing tolerance"
+    },
+    {
+      "id": "Q2",
+      "question": "Does the world feel discovered rather than invented?",
+      "valid_if": "Names carry etymology, references point to unrevealed depths, author seems to record rather than create"
+    },
+    {
+      "id": "Q3",
+      "question": "Does the eucatastrophe preserve all previous sorrow while denying defeat?",
+      "valid_if": "Joy contains grief, victory does not erase loss, tears are both happy and sad"
+    },
+    {
+      "id": "Q4",
+      "question": "Is evil portrayed as corruption of good rather than independent force?",
+      "valid_if": "Evil cannot create, only mock and corrupt; evil diminishes evildoer; evil is ultimately self-consuming"
+    },
+    {
+      "id": "Q5",
+      "question": "Does the hero succeed through grace rather than power?",
+      "valid_if": "Victory comes beyond protagonist's agency, often through apparent failure transformed by providence"
+    },
+    {
+      "id": "Q6",
+      "question": "Are there visible temporal layers with glimpsed rather than explained depths?",
+      "valid_if": "References to earlier ages without full explanation, mystery quotient high, less explanation equals more depth"
+    },
+    {
+      "id": "Q7",
+      "question": "Does language precede and generate world rather than being added afterward?",
+      "valid_if": "Names have etymology, place names reflect historical events, linguistic archaeology visible in landscape"
+    },
+    {
+      "id": "Q8",
+      "question": "Does the narrative structure subvert the hero's journey toward apotheosis?",
+      "valid_if": "No apotheosis occurs, boon is inverted (loss not gain), hero fails at crucial moment, return is wounded"
+    }
+  ],
+  "theoretical_correspondences": {
+    "maps_to": [
+      "Augustinian theology of evil (evil as privatio boni)",
+      "Campbell monomyth (partial fit with significant divergences)",
+      "Northern heroic tradition (Beowulf, Norse mythology)",
+      "Christian eschatology (eucatastrophe as echo of Gospel)",
+      "Philological linguistics (historical-comparative method)"
+    ],
+    "sequence_pairs": ["Kirby-Tolkien"]
+  },
+  "quick_reference": {
+    "core_operations": [
+      "Language-first worldbuilding: language -> history -> story",
+      "Eucatastrophe construction: dyscatastrophe -> sudden turn -> joy preserving sorrow",
+      "Lore stratification: glimpsed depth through temporal layering",
+      "Small hero mechanism: courage * humility * persistence",
+      "Augustinian evil: corruption that is self-consuming",
+      "Discovery quality: mystery_quotient = 1 - explanation_completeness"
+    ],
+    "key_constraints": [
+      "Evil cannot create, only corrupt",
+      "Victory through grace, not power",
+      "Secondary Belief, not suspension of disbelief",
+      "Discovered feeling, not invented feeling",
+      "Escape is not escapism",
+      "Joy does not replace sorrow but contains it",
+      "Hero fails at crucial moment; providence succeeds",
+      "Some wounds don't heal in Middle-earth",
+      "Less explanation equals more perceived depth"
+    ]
+  }
+}

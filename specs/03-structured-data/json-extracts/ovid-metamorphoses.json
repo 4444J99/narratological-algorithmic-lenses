@@ -1,0 +1,194 @@
+{
+  "id": "ovid-metamorphoses",
+  "creator": "Ovid",
+  "work": "Metamorphoses",
+  "category": "Classical",
+  "axioms": [
+    {
+      "id": "OV-A0",
+      "name": "Transformation as Universal Grammar",
+      "statement": "Transformation is the universal grammar of narrative. All stories are fundamentally about change; the metamorphosis literalizes what other narratives metaphorize. Form follows flux.",
+      "derivations": ["Metamorphic Logic Algorithm", "Transformation Typology", "Transformation Mechanics"]
+    },
+    {
+      "id": "OV-A1",
+      "name": "Universal Connection",
+      "statement": "All things connect; the poet's task is revealing the connection. The carmen perpetuum ('continuous song') demonstrates that apparently disparate myths share hidden linkages through genealogy, geography, theme, or speaker.",
+      "derivations": ["Catalogic Structure Protocol", "Episode Clustering Algorithm", "Narrative Linking Devices"]
+    },
+    {
+      "id": "OV-A2",
+      "name": "Tonal Range as Mastery",
+      "statement": "Tonal range demonstrates mastery; monotony signals limitation. The movement from horror to comedy to pathos within a single work proves command over the full spectrum of human experience.",
+      "derivations": ["Tonal Modulation System", "Tonal Register Classification", "Modulation Constraints"]
+    },
+    {
+      "id": "OV-A3",
+      "name": "Aetiological Justification",
+      "statement": "Aetiology justifies anthology. Each transformation explains something about the present world (why the laurel is Apollo's tree, why spiders weave), providing functional coherence to disparate tales.",
+      "derivations": ["Aetiological residue in transformations", "World explanation through myth"]
+    },
+    {
+      "id": "OV-A4",
+      "name": "Permeable Narrator Boundary",
+      "statement": "The boundary between teller and tale is permeable. Embedded narrators (Orpheus, the Muses, Ulysses) become characters whose telling transforms them and their listeners.",
+      "derivations": ["Embedded Narrative Architecture", "Diegetic Levels", "Embedding Functions"]
+    }
+  ],
+  "structural_hierarchy": {
+    "levels": [
+      {
+        "level": 1,
+        "name": "Carmen Perpetuum",
+        "description": "The complete work as continuous unbroken song",
+        "elements": ["15 Books", "~12,000 lines", "Must span from cosmic creation to present day"]
+      },
+      {
+        "level": 2,
+        "name": "Pentad",
+        "description": "Three-book grouping with thematic coherence",
+        "elements": ["Books 1-5 (gods/cosmos)", "Books 6-10 (love/art)", "Books 11-15 (Troy-Rome)"]
+      },
+      {
+        "level": 3,
+        "name": "Book",
+        "description": "Major structural division",
+        "elements": ["~800 lines average", "5-15 distinct myths per book"]
+      },
+      {
+        "level": 4,
+        "name": "Episode Cluster",
+        "description": "Adjacent myths sharing linking device",
+        "elements": ["Minimum 2 myths", "Maximum 7 in sequence"]
+      },
+      {
+        "level": 5,
+        "name": "Myth Unit",
+        "description": "Single transformation narrative",
+        "elements": ["Must contain at least one metamorphosis"]
+      },
+      {
+        "level": 6,
+        "name": "Transformation Moment",
+        "description": "Instant of bodily change",
+        "elements": ["Must preserve mens pristina (original mind)"]
+      }
+    ]
+  },
+  "core_algorithms": [
+    {
+      "name": "Metamorphic Logic Algorithm",
+      "purpose": "Execute Ovidian transformation preserving psychological continuity",
+      "pseudocode": "metamorphose(subject, trigger, new_form): 1) Identify crisis from trigger; 2) Transform body parts gradually with liminal states; 3) Preserve mens (mind) and memory in new being; 4) Add aetiological explanation to world; return new_being",
+      "inputs": ["subject", "trigger", "new_form"],
+      "outputs": ["new_being", "transformation_sequence"]
+    },
+    {
+      "name": "Episode Clustering Algorithm",
+      "purpose": "Group myths into episode clusters using Ovidian linking logic",
+      "pseudocode": "cluster_episodes(myth_collection, max_size=7): For each myth, find strongest link to current cluster (genealogical/geographical/thematic/speaker/temporal); if link strong and cluster not full, add to cluster; else start new cluster",
+      "inputs": ["myth_collection", "max_cluster_size"],
+      "outputs": ["clusters with link types"]
+    },
+    {
+      "name": "Transition Mechanism",
+      "purpose": "Execute smooth transition between adjacent myths",
+      "pseudocode": "transition_between_myths(ending, beginning, links): Priority order: speaker_transition > genealogical > object_handoff > geographical > temporal > thematic; fallback: 'Meanwhile, in another part of the world...'",
+      "inputs": ["ending_myth", "beginning_myth", "available_links"],
+      "outputs": ["transition text"]
+    },
+    {
+      "name": "Tonal Modulation Algorithm",
+      "purpose": "Ensure tonal variety across episode sequence",
+      "pseudocode": "modulate_tone(sequence): Track recent registers; flag if same register consecutive; error if same register 4+ times; calculate overall tonal range",
+      "inputs": ["episode_sequence"],
+      "outputs": ["tonal_range_score", "monotony_flags"]
+    },
+    {
+      "name": "Embedding Protocol",
+      "purpose": "Create nested narrative structure with proper framing",
+      "pseudocode": "embed_narrative(host, content, narrator): Establish narrator authority; create frame-in transition; increment diegetic level; create frame-out; verify thematic clustering with narrator's previous tales",
+      "inputs": ["host_narrative", "embedded_content", "narrator_character"],
+      "outputs": ["nested Narrative object"]
+    }
+  ],
+  "diagnostic_questions": [
+    {"id": "Q1", "question": "Does each story contain at least one physical transformation?", "valid_if": "YES"},
+    {"id": "Q2", "question": "Does the transformation preserve psychological continuity (mens pristina)?", "valid_if": "YES"},
+    {"id": "Q3", "question": "Does the transformation explain something about the present world (aetiology)?", "valid_if": "YES"},
+    {"id": "Q4", "question": "Is the trigger for transformation emotionally/narratively justified?", "valid_if": "YES"},
+    {"id": "Q5", "question": "Does the collection span from origin to present?", "valid_if": "YES"},
+    {"id": "Q6", "question": "Are myths grouped by recognizable linking principle?", "valid_if": "YES"},
+    {"id": "Q7", "question": "Does each book contain multiple distinct episodes?", "valid_if": "YES"},
+    {"id": "Q8", "question": "Is there variety in transformation types across the collection?", "valid_if": "YES"},
+    {"id": "Q9", "question": "Can you identify the link between any two adjacent myths?", "valid_if": "YES"},
+    {"id": "Q10", "question": "Do at least 3 different link types appear across the work?", "valid_if": "YES"},
+    {"id": "Q11", "question": "Are abrupt transitions acknowledged or motivated?", "valid_if": "YES"},
+    {"id": "Q12", "question": "Does the work touch at least 4 distinct tonal registers?", "valid_if": "YES"},
+    {"id": "Q13", "question": "Is there contrast between adjacent episodes?", "valid_if": "YES"},
+    {"id": "Q14", "question": "Does no single register dominate for more than 3 consecutive myths?", "valid_if": "YES"},
+    {"id": "Q15", "question": "Do at least 2 characters serve as embedded narrators?", "valid_if": "YES"},
+    {"id": "Q16", "question": "Do embedded narrators' tales cluster thematically?", "valid_if": "YES"},
+    {"id": "Q17", "question": "Does embedding create productive distance for difficult content?", "valid_if": "YES"}
+  ],
+  "theoretical_correspondences": {
+    "maps_to": ["McKee (Story structure)", "Aristotle (Poetics)", "Bharata Muni (Natyashastra)", "Gaiman (Sandman)"],
+    "sequence_pairs": ["Gaiman-Sandman", "Tarantino"],
+    "concept_mappings": {
+      "carmen_perpetuum": {"mckee": null, "aristotle": "Unity of Action", "bharata": "Natya", "gaiman": "Series arc"},
+      "myth_unit": {"mckee": "Sequence", "aristotle": "Episode", "bharata": "Anka", "gaiman": "Single issue/arc"},
+      "transformation": {"mckee": "Turning Point", "aristotle": "Peripeteia", "bharata": "Parivrtti", "gaiman": "Character revelation"},
+      "tonal_modulation": {"mckee": "Value oscillation", "aristotle": "Catharsis variety", "bharata": "Rasa modulation", "gaiman": "Genre-shifting issues"},
+      "embedded_narrative": {"mckee": "Subplot", "aristotle": null, "bharata": null, "gaiman": "Story-within-story issues"},
+      "mens_pristina": {"mckee": "Character essence", "aristotle": "Ethos", "bharata": "Svabhava", "gaiman": "Dream's unchanging nature"},
+      "aetiological_residue": {"mckee": "Theme", "aristotle": null, "bharata": null, "gaiman": "Mythic resonance"}
+    }
+  },
+  "quick_reference": {
+    "core_operations": [
+      "FRAME(creation to present)",
+      "CLUSTER(linked myths)",
+      "TRANSFORM(each story)",
+      "MODULATE(tone across sequence)",
+      "EMBED(narrator within narrative)"
+    ],
+    "key_constraints": [
+      "Preserve mens_pristina (original mind) through transformation",
+      "Each transformation must explain something in present world",
+      "Trigger must be justified emotional/divine cause",
+      "Contrast adjacent episodes tonally",
+      "Touch 4+ registers per major division",
+      "Never sustain one register 4+ consecutive times",
+      "Monotony equals limitation, not consistency"
+    ],
+    "linking_priority": [
+      "1. Speaker transition (strongest)",
+      "2. Genealogical connection",
+      "3. Character handoff",
+      "4. Geographical proximity",
+      "5. Temporal simultaneity",
+      "6. Thematic echo (weakest)"
+    ],
+    "transformation_types": [
+      "ESCAPE_TRANSFORMATION: Agent pursued, physical escape impossible, form-change as salvation",
+      "PUNISHMENT_TRANSFORMATION: Transgression leads to divine wrath and degrading form",
+      "GRIEF_TRANSFORMATION: Unbearable loss causes gradual solidification/flow",
+      "REWARD_TRANSFORMATION: Exceptional virtue leads to elevation/immortalization",
+      "PASSION_TRANSFORMATION: Overwhelming emotion causes form to match feeling"
+    ],
+    "tonal_registers": [
+      "COSMIC/SUBLIME: Creation narrative, divine councils, universal transformations",
+      "HEROIC/EPIC: Battle narratives, quests, contests between mortals and gods",
+      "PATHETIC/TRAGIC: Grief narratives, doomed lovers, innocent suffering",
+      "EROTIC/SENSUAL: Love pursuits, seductions, desire narratives",
+      "HORROR/GROTESQUE: Violent transformations, monstrous births, cannibalism",
+      "COMIC/SATIRIC: Divine foolishness, bathetic deflations, ironic commentary"
+    ],
+    "diegetic_levels": [
+      "Level 0: PRIMARY_NARRATOR (Ovid/poetic voice)",
+      "Level 1: CHARACTER_NARRATOR (Orpheus, Ulysses, the Muses)",
+      "Level 2: REPORTED_SPEECH or SUNG_NARRATIVE",
+      "Level 3: EMBEDDED_QUOTATION"
+    ]
+  }
+}

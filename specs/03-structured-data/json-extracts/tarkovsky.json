@@ -1,0 +1,174 @@
+{
+  "id": "tarkovsky",
+  "creator": "Andrei Tarkovsky",
+  "work": "Sculpting in Time / Filmography",
+  "category": "Film",
+  "axioms": [
+    {
+      "id": "AT-A0",
+      "name": "Time as Material",
+      "statement": "Time is the material of cinema. The director sculpts time as a sculptor removes marble to reveal form. Cinema's unique artistic property is its capacity to imprint and reproduce temporal experience.",
+      "derivations": ["Sculpting in Time methodology", "Time-pressure theory", "Long take principles"]
+    },
+    {
+      "id": "AT-A1",
+      "name": "Poetry as Natural Language",
+      "statement": "Poetry is cinema's natural language; prose is its degradation. Poetic logic (associative, emotional, non-linear) is closer to life and thought than dramatic logic. Traditional theatrical causation limits cinema's potential.",
+      "derivations": ["Poetic logic system", "Associative linkage", "Haiku principle"]
+    },
+    {
+      "id": "AT-A2",
+      "name": "Active Audience",
+      "statement": "The audience must be active; difficulty is respect. The spectator must build meaning from parts. Art that explains itself patronizes; art that demands participation honors the viewer's capacity for depth.",
+      "derivations": ["Active spectator requirement", "Multiple valid readings", "Co-created meaning"]
+    },
+    {
+      "id": "AT-A3",
+      "name": "Showing Spiritual Truth",
+      "statement": "Spiritual truth cannot be stated, only shown. The infinite cannot be made material, but an image of the infinite can be created. The invisible is depicted through what it touches and moves.",
+      "derivations": ["Depicting the invisible protocol", "Visible effects method", "Metaphysical architecture"]
+    },
+    {
+      "id": "AT-A4",
+      "name": "Rhythm Dominance",
+      "statement": "Rhythm, not montage, is cinema's dominant force. Time-pressure within the frame determines rhythm. Editing should match pre-existing temporal flows, not create meaning through juxtaposition (contra Eisenstein).",
+      "derivations": ["Time-pressure algorithm", "Cut point determination", "Rhythm wave structure"]
+    },
+    {
+      "id": "AT-A5",
+      "name": "Art Prepares for Death",
+      "statement": "Art prepares the soul for death. The function of art is to plough and harrow the soul, rendering it capable of turning to good. Art must give hope even when depicting hopelessness.",
+      "derivations": ["Art as prayer protocol", "Hope in hopelessness paradox", "Spiritual cinema definition"]
+    }
+  ],
+  "structural_hierarchy": {
+    "levels": [
+      {
+        "level": 1,
+        "name": "TEMPORAL_UNITY",
+        "description": "The complete film as a mosaic of time",
+        "elements": ["Must create unified temporal experience", "Viewer goes for time lost or spent or not yet had"]
+      },
+      {
+        "level": 2,
+        "name": "RHYTHM_WAVE",
+        "description": "Large-scale temporal movement (act-equivalent)",
+        "elements": ["Governed by accumulating time-pressure", "Not governed by plot points"]
+      },
+      {
+        "level": 3,
+        "name": "SEQUENCE",
+        "description": "Sustained flow of connected shots",
+        "elements": ["United by internal rhythm", "Not by narrative causation"]
+      },
+      {
+        "level": 4,
+        "name": "SHOT",
+        "description": "The atomic unit containing inherent time-pressure",
+        "elements": ["Rhythm determined by pressure of time passing within it", "Not determined by length"]
+      },
+      {
+        "level": 5,
+        "name": "FRAME",
+        "description": "Single instant of frozen time",
+        "elements": ["Carries potential meaning", "Image exists as it is (haiku principle)"]
+      }
+    ]
+  },
+  "core_algorithms": [
+    {
+      "name": "Time-Pressure Algorithm",
+      "purpose": "Calculate the felt weight of time passing within a frame to determine rhythm and cut points",
+      "pseudocode": "internal_rhythm = analyze_movement_within_frame(shot); duration = shot.length; content_density = visual_complexity + emotional_weight; time_pressure = internal_rhythm * log(duration) * content_density; IF time_pressure >= PEAK_THRESHOLD AND rhythm_compatible(current, next): CUT_VALID; ELSE: EXTEND_OR_ADJUST",
+      "inputs": ["shot", "shot_sequence", "internal_rhythm", "duration", "content_density"],
+      "outputs": ["time_pressure_value", "cut_decision (CUT_VALID | EXTEND_OR_ADJUST | CONTINUE_SHOT)"]
+    },
+    {
+      "name": "Haiku Image Protocol",
+      "purpose": "Create images that mean nothing beyond themselves through direct perception unmediated by explanation",
+      "pseudocode": "INPUT: object/scene; PROCESS: 1. Present image as it is without interpretation; 2. Meaning pre-exists in image, not constructed; 3. Juxtapose disparate elements to create whole larger than parts; 4. No symbolic encoding - image IS, does not REPRESENT; OUTPUT: direct_perception; ANTI-PATTERNS: [building through conventional methods, linguistic mediation, explanation of significance]",
+      "inputs": ["subject", "object", "scene"],
+      "outputs": ["direct_perception", "unmediated_image"]
+    },
+    {
+      "name": "Contemplative Image Algorithm",
+      "purpose": "Achieve meditative image quality where camera observes rather than dramatizes",
+      "pseudocode": "1. image = capture_without_stylization(subject); 2. sound = record_ambient_reality(environment); 3. duration = calculate_contemplation_duration(complexity); 4. associations = find_emotional_resonances(elements); 5. IF enhances_meaning: incorporate_painting/music/poetry; 6. NEVER: add_explanatory_voiceover OR use_conventional_symbolism; RETURN: MeditativeImage(image, sound, duration, associations, interpretation=None)",
+      "inputs": ["subject", "environment", "complexity"],
+      "outputs": ["MeditativeImage (image, sound, duration, associations, interpretation=viewer_task)"]
+    },
+    {
+      "name": "Memory Structure Algorithm",
+      "purpose": "Connect scenes by emotional/associative logic rather than chronological or causal necessity",
+      "pseudocode": "FOR element IN narrative_elements: link_by_individual = find_shared_persons(element); link_by_motif = find_recurring_images(element); link_by_emotion = find_emotional_resonance(element); link_by_serendipity = find_chance_associations(element); connections.extend([all_links]); NOT_CONNECTED_BY: [chronological_sequence, causal_necessity, plot_logic]; RETURN: arrange_by_poetic_logic(connections)",
+      "inputs": ["narrative_elements", "shared_persons", "recurring_images", "emotional_resonances"],
+      "outputs": ["poetic_arrangement", "memory-structured_narrative"]
+    },
+    {
+      "name": "Depict Transcendent Algorithm",
+      "purpose": "Show what cannot be shown by depicting the invisible through what it touches and moves",
+      "pseudocode": "NEVER: represent_god_directly OR state_spiritual_truth_explicitly; visible_effects = find_material_manifestations(spiritual_content); FOR effect IN visible_effects: show_effect_on_material_world(effect); RETURN: Image(content=visible_effects, meaning=spiritual_content, access='felt, not explained')",
+      "inputs": ["spiritual_content"],
+      "outputs": ["Image with visible effects, unstated meaning, felt access"]
+    },
+    {
+      "name": "Elemental Rhythm Algorithm",
+      "purpose": "Apply natural element rhythms to scene construction, working with inherent temporal signatures",
+      "pseudocode": "natural_rhythms = {rain: 'continuous, variable', fire: 'flickering, consuming', water_flow: 'perpetual, directional', wind: 'intermittent, invisible force', snow: 'suspended, silent'}; element_rhythm = natural_rhythms[element_type]; scene.pacing = align_with(element_rhythm); scene.duration = determined_by(element_rhythm); scene.sound = incorporate(element_rhythm.audio_signature); IF character.experiencing_grief: surround_with(natural_element)",
+      "inputs": ["scene", "element_type", "character_state"],
+      "outputs": ["scene with aligned pacing, duration, sound"]
+    }
+  ],
+  "diagnostic_questions": [
+    {"id": "Q1", "question": "Does the rhythm arise from time-pressure within shots rather than editing pace?", "valid_if": "YES"},
+    {"id": "Q2", "question": "Are cuts made at points of rhythmic compatibility between shots?", "valid_if": "YES"},
+    {"id": "Q3", "question": "Does duration serve contemplation rather than narrative efficiency?", "valid_if": "YES"},
+    {"id": "Q4", "question": "Is temporal manipulation (slow motion, etc.) rhythmically justified?", "valid_if": "YES"},
+    {"id": "Q5", "question": "Does the viewer experience time as material rather than as conveyor of plot?", "valid_if": "YES"},
+    {"id": "Q6", "question": "Are scenes connected by associative/emotional logic rather than causal necessity?", "valid_if": "YES"},
+    {"id": "Q7", "question": "Does the work resist explaining its images?", "valid_if": "YES"},
+    {"id": "Q8", "question": "Must the viewer actively construct meaning from parts?", "valid_if": "YES"},
+    {"id": "Q9", "question": "Are there multiple valid interpretations available?", "valid_if": "YES"},
+    {"id": "Q10", "question": "Does the image exist 'as it is' (haiku principle) rather than representing something else?", "valid_if": "YES"},
+    {"id": "Q11", "question": "Does chronology serve psychological truth rather than narrative clarity?", "valid_if": "YES"},
+    {"id": "Q12", "question": "Are temporal boundaries permeable (past/present/future interpenetrating)?", "valid_if": "YES"},
+    {"id": "Q13", "question": "Do identities blur across time (same actor as different ages/people)?", "valid_if": "YES"},
+    {"id": "Q14", "question": "Is some material left unexplained, as in actual memory?", "valid_if": "YES"},
+    {"id": "Q15", "question": "Is spiritual content shown rather than stated?", "valid_if": "YES"},
+    {"id": "Q16", "question": "Does the invisible become perceptible through its effects on the material?", "valid_if": "YES"},
+    {"id": "Q17", "question": "Is there hope even in depictions of hopelessness?", "valid_if": "YES"},
+    {"id": "Q18", "question": "Does the protagonist embody spiritual persistence despite weakness?", "valid_if": "YES"},
+    {"id": "Q19", "question": "Are natural elements present with their inherent rhythms?", "valid_if": "YES"},
+    {"id": "Q20", "question": "Do elements function as metaphor rather than symbol?", "valid_if": "YES"},
+    {"id": "Q21", "question": "Is the viewer allowed personal interpretation of elemental meaning?", "valid_if": "YES"}
+  ],
+  "theoretical_correspondences": {
+    "maps_to": [
+      "Anti-Eisenstein position (meaning within shots, not between)",
+      "Japanese haiku aesthetics (image as it is)",
+      "Bresson's invisible wind methodology",
+      "Orthodox Christian mystical tradition",
+      "Non-linear memory psychology"
+    ],
+    "sequence_pairs": ["Bergman"]
+  },
+  "quick_reference": {
+    "core_operations": [
+      "LUMP_OF_TIME -> REMOVE_INESSENTIAL -> DISTILLED_RHYTHM -> TEMPORAL_EXPERIENCE",
+      "IF shot.internal_rhythm + duration = PEAK_PRESSURE: CUT to compatible rhythm; ELSE: EXTEND shot",
+      "POETIC: A -> B (associative) = life's logic; DRAMATIC: A -> B (causal) = theatrical logic",
+      "Present image AS IT IS; meaning pre-exists; observation not explanation",
+      "SHOW the invisible through its effects; NEVER state spiritual truth directly"
+    ],
+    "key_constraints": [
+      "TIME is the material",
+      "RHYTHM, not montage, is dominant",
+      "POETRY, not prose, is the language",
+      "The VIEWER must work",
+      "The SPIRITUAL can only be shown",
+      "Connect by feeling, not by plot",
+      "Hope must be visible even in hopelessness",
+      "Allow personal interpretation; no fixed symbols"
+    ]
+  }
+}

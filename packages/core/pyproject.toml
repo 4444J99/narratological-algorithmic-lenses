@@ -1,0 +1,26 @@
+[project]
+name = "narratological"
+version = "0.1.0"
+description = "Core library for narratological analysis algorithms"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+    "pydantic>=2.6",
+]
+
+[project.optional-dependencies]
+llm = [
+    "anthropic>=0.18",
+    "openai>=1.12",
+]
+nlp = [
+    "spacy>=3.7",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/narratological"]

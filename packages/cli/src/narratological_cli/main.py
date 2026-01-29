@@ -6,7 +6,7 @@ import typer
 from rich.console import Console
 from rich.table import Table
 
-from narratological_cli.commands import analyze, diagnose, generate, study
+from narratological_cli.commands import algorithm, analyze, diagnose, generate, study
 
 app = typer.Typer(
     name="narratological",
@@ -16,6 +16,7 @@ app = typer.Typer(
 
 # Add subcommands
 app.add_typer(study.app, name="study", help="Explore narratological studies")
+app.add_typer(algorithm.app, name="algorithm", help="Explore and execute algorithms")
 app.add_typer(analyze.app, name="analyze", help="Analyze scripts and stories")
 app.add_typer(diagnose.app, name="diagnose", help="Run diagnostic tests")
 app.add_typer(generate.app, name="generate", help="Generate narrative structures")

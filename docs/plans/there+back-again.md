@@ -137,10 +137,10 @@ All of this material was ingested into the repository at the 2026-02-15 Claude D
 
 ### Milestone 4: CI/CD Pipeline
 
-- [ ] Verify `.github/workflows/ci-python.yml` runs: lint, type-check, test
-- [ ] Add web build step to CI
-- [ ] Add MCP server test step
-- [ ] Badge in README reflects real CI status
+- [x] Verify `.github/workflows/ci.yml` runs: lint, type-check, test
+- [x] Add web build step to CI
+- [x] Add MCP server test step
+- [x] Badge in README reflects real CI status
 
 ### Milestone 5: Protocol Framework Integration
 

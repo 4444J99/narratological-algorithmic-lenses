@@ -78,7 +78,7 @@ This project systematically extracts, formalizes, and organizes narrative craft 
 | Field | Value |
 |-------|-------|
 | **ID** | `PF-001` |
-| **Filename** | `McKee Story full text (private sibling only)` |
+| **Filename** | `McKee, Story (full text; private sibling only)` |
 | **Size** | 815K |
 | **Tags** | `SOURCE`, `SCREENWRITING`, `CONTEMPORARY` |
 | **Format** | OCR-extracted text |
@@ -1250,7 +1250,7 @@ This project systematically extracts, formalizes, and organizes narrative craft 
 **Annotation**: Initial OCR extraction session for McKee's *Story* book (427-page scanned PDF). Converted PDF pages to images and ran OCR to capture key principles. Basis for PF-001 and subsequent CT-017 algorithm work.
 
 **Files Generated**: 
-- `McKee Story full text (private sibling only)` (PF-001)
+- `McKee, Story (full text; private sibling only)` (PF-001)
 
 ---
 

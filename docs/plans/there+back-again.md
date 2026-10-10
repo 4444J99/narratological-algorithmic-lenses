@@ -27,7 +27,7 @@ The open-view phase produced:
 - The Protocol Framework (P1–P7 skill levels)
 - The EL Series (extended lore supplements)
 
-All of this material was ingested into the repository at the 2026-02-15 Claude Desktop intake commit ("feat: complete Claude Desktop project intake") and now lives in `specs/00-chat-transcripts/` through `specs/12-mythological-sources/`.
+All of this material was ingested into the repository at the 2026-02-15 Claude Desktop intake commit ("feat: complete Claude Desktop project intake") and now lives in `narratological-algorithmic-lenses--private: specs/00-chat-transcripts/` through `specs/12-mythological-sources/`.
 
 ### 1.2 Phase Map
 

@@ -141,7 +141,7 @@ Definition of "done" — not a fixed endpoint but a self-sustaining state where:
 | 10 | "27+ formalized narrative frameworks" | → "28 formalized narrative frameworks" |
 | 40–53 | Repository Layout missing 9 spec dirs, `docs/` present but incomplete | → Full accurate tree with all 13 spec dirs |
 | 52 | Shows `docs/` as "Documentation & Roadmaps" | → Accurate: `docs/adr/` and `docs/plans/` |
-| 44 | Only shows `06-open-view-drafts/` under specs | → Show key dirs: `00-chat-transcripts/`, `01-primary-sources/`, `02-completed-studies/`, `03-structured-data/`, `04-templates/`, `05-secondary-sources/`, `06-open-view-drafts/`, `07-skill-documentation/`, `08-protocol-framework/`, `09-protocol-skills/`, `10-project-manifests/`, `11-el-series/`, `12-mythological-sources/` |
+| 44 | Only shows `06-open-view-drafts/` under specs | → Show key dirs: `01-primary-sources/`, `02-completed-studies/`, `03-structured-data/`, `04-templates/`, `05-secondary-sources/`, `06-open-view-drafts/`, `07-skill-documentation/`, `08-protocol-framework/`, `09-protocol-skills/`, `10-project-manifests/`, `11-el-series/`, `12-mythological-sources/` |
 | 121 | Closing line "There and Back Again." | → Link to roadmap: "There and Back Again — [the roadmap](docs/plans/there+back-again.md)." |
 
 ### Content additions

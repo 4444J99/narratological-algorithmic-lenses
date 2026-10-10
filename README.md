@@ -267,7 +267,7 @@ meter.
 ```text
 narratological-algorithmic-lenses/
 ├── specs/                          # Narrative source material and structured data
-│   ├── 00-chat-transcripts/        # Conversation archive
+│   ├── (00-chat-transcripts/ and the McKee full text live in the private sibling narratological-algorithmic-lenses--private)
 │   ├── 02-completed-studies/       # Markdown source of truth for studies
 │   ├── 03-structured-data/         # Validated JSON extracts and unified compendium
 │   ├── 08-protocol-framework/      # P1-P7 protocol framework

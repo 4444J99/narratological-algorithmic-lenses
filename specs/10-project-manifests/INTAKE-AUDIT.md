@@ -15,7 +15,7 @@ All 52 project files from the manifest, with their repo locations and intake sta
 
 | PF-ID | Original Filename | Repo Path | Status |
 |-------|-------------------|-----------|--------|
-| PF-001 | McKee Story full text (private sibling only) | `specs/01-primary-sources/McKee Story full text (private sibling only)` | pre-existing |
+| PF-001 | McKee, Story (full text; private sibling only) | private sibling `narratological-algorithmic-lenses--private` (specs/01-primary-sources/) | pre-existing |
 | PF-002 | aristotle_poetics.txt | `specs/01-primary-sources/aristotle_poetics.txt` | pre-existing |
 | PF-003 | plato_republic.txt | `specs/01-primary-sources/plato_republic.txt` | pre-existing |
 | PF-004 | horace_ars-poetica.txt | `specs/01-primary-sources/horace_ars-poetica.txt` | pre-existing |
@@ -153,8 +153,8 @@ All 27 manifest threads extracted from `conversations.json`.
 | CT-026 | First manifest amendment session | `CT-026_first-manifest-amendment-session.md` | 2 | 4K |
 | CT-027 | Balancing novelty against comparative analysis | `CT-027_balancing-novelty-against-comparative-analysis.md` | 2 | 6K |
 
-All threads stored in: `specs/00-chat-transcripts/desktop/`
-Artifacts stored in: `specs/00-chat-transcripts/desktop/artifacts/` (17 extracted)
+All threads stored in: `narratological-algorithmic-lenses--private: specs/00-chat-transcripts/desktop/`
+Artifacts stored in: `narratological-algorithmic-lenses--private: specs/00-chat-transcripts/desktop/artifacts/` (17 extracted)
 
 ---
 
@@ -303,7 +303,7 @@ The following files exist in the repository but were **not** part of the origina
 
 ## 7. Memories Extracted
 
-Claude Desktop memories stored in: `specs/00-chat-transcripts/desktop/claude-desktop-memories.md`
+Claude Desktop memories stored in: `narratological-algorithmic-lenses--private: specs/00-chat-transcripts/desktop/claude-desktop-memories.md`
 
 | Section | Size | Description |
 |---------|------|-------------|

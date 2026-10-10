@@ -11,7 +11,7 @@ Total docs: 52
 | 2 | 2019-10-21 - open view - second draft.md | 83.7K | `14a1b267-c5e7-4f06-8d8f-abb47f35125e` |
 | 3 | The Three Things Going On Technique: Phoebe Waller-Bridge and Scene Construction Through Layered Obstacles.md | 15.0K | `356c82bb-6882-4a18-9e72-d04cd37cb336` |
 | 4 | Comedy Geometry: Larry David's Architecture of Cascading Consequences.md | 18.0K | `d3df6a22-12e3-4b39-b7e9-95ea51bcc5ba` |
-| 5 | McKee Story full text (private sibling only) | 814.4K | `0981ea3b-8e6d-41da-be54-7dfe91bfeb3c` |
+| 5 | McKee, Story (full text; private sibling only) | 814.4K | `0981ea3b-8e6d-41da-be54-7dfe91bfeb3c` |
 | 6 | The South Park But/Therefore Rule: A Complete Craft Analysis.md | 20.2K | `35994d02-81f2-43b4-80c0-3d26e4ce85c8` |
 | 7 | mckee_narratological_algorithms_complete.md | 61.3K | `236f38a1-5a4b-4c2f-b917-4fbac3183fa2` |
 | 8 | larry_david_narratological_algorithms.md | 24.8K | `84db236a-98f5-4e51-8a99-4546d271d4ad` |

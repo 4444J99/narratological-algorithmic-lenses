@@ -97,3 +97,8 @@ temp/
 
 # Gemini Workspace Tooling
 .gemini/worktrees/
+
+# Sensitive material lives in 4444J99/narratological-algorithmic-lenses--private
+specs/00-chat-transcripts/
+specs/01-primary-sources/McKee*
+*.jsonl

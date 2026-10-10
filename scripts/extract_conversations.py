@@ -2,14 +2,13 @@
 """Extract 27 conversation threads from Claude Desktop conversations.json export."""
 
 import json
+import os
 import re
 from datetime import datetime
 from pathlib import Path
 
 CONVERSATIONS_JSON = Path("~/Workspace/intake/data-2026-02-16-00-20-00-batch-0000/conversations.json")
 REPO_ROOT = Path("~/world/realm/create/org/liminal/repo/narratological-algorithmic-lenses")
-import os
-
 # Transcripts are sensitive and belong in the private sibling repo
 # 4444J99/narratological-algorithmic-lenses--private. Set TRANSCRIPTS_REPO to its checkout.
 OUTPUT_DIR = Path(os.environ.get("TRANSCRIPTS_REPO", "../narratological-algorithmic-lenses--private")) / "specs/00-chat-transcripts/desktop"

@@ -1,6 +1,6 @@
 # Narratological Algorithmic Lenses
 
-[![CI](https://github.com/a-organvm/narratological-algorithmic-lenses/actions/workflows/ci.yml/badge.svg)](https://github.com/a-organvm/narratological-algorithmic-lenses/actions/workflows/ci.yml)
+[![CI](https://github.com/4444J99/narratological-algorithmic-lenses/actions/workflows/ci.yml/badge.svg)](https://github.com/4444J99/narratological-algorithmic-lenses/actions/workflows/ci.yml)
 
 Narratological Algorithmic Lenses turns narrative craft theory into executable
 analysis. It formalizes principles from Aristotle, Bharata Muni, Bergman,
@@ -121,7 +121,7 @@ Seven protocol levels from `specs/08-protocol-framework/` scale analysis depth:
 ### Workspace Setup
 
 ```bash
-git clone https://github.com/a-organvm/narratological-algorithmic-lenses.git
+git clone https://github.com/4444J99/narratological-algorithmic-lenses.git
 cd narratological-algorithmic-lenses
 
 uv sync

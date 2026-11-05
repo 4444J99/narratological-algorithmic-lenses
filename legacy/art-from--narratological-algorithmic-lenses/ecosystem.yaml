@@ -1,8 +1,0 @@
-schema_version: '1.0'
-repo: art-from--narratological-algorithmic-lenses
-organ: II
-display_name: Interactive web experience exploring narrative structures via visual
-  algorithmic lenses
-delivery:
-- platform: web_app
-  status: not_started

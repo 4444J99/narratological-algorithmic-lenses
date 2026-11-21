@@ -8,6 +8,19 @@ export default function StudyExplorer() {
   const [selectedStudy, setSelectedStudy] = useState<Study | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+  const [prevStudyId, setPrevStudyId] = useState(studyId)
+
+  // Adjust state during render when the route study changes: show the
+  // loading state for the new study instead of the previous study's data,
+  // and let the effect below only start the fetch. (Calling setState
+  // synchronously inside the effect is forbidden by
+  // react-hooks/set-state-in-effect.)
+  if (prevStudyId !== studyId) {
+    setPrevStudyId(studyId)
+    setSelectedStudy(null)
+    setError(null)
+    if (studyId) setLoading(true)
+  }
 
   useEffect(() => {
     fetchStudies()
@@ -18,13 +31,10 @@ export default function StudyExplorer() {
 
   useEffect(() => {
     if (studyId) {
-      setLoading(true)
       fetchStudy(studyId)
         .then(setSelectedStudy)
         .catch((err) => setError(err.message))
         .finally(() => setLoading(false))
-    } else {
-      setSelectedStudy(null)
     }
   }, [studyId])
 

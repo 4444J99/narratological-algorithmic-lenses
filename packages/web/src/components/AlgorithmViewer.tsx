@@ -6,12 +6,24 @@ export default function AlgorithmViewer() {
   const { studyId, algoName } = useParams()
   const [study, setStudy] = useState<Study | null>(null)
   const [algorithm, setAlgorithm] = useState<Algorithm | null>(null)
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(!!studyId)
   const [error, setError] = useState<string | null>(null)
+  const [prevRoute, setPrevRoute] = useState({ studyId, algoName })
+
+  // Adjust state during render when the route changes: show the loading
+  // state for the new study instead of the previous study's data, and let
+  // the effect below only start the fetch. (Calling setState synchronously
+  // inside the effect is forbidden by react-hooks/set-state-in-effect.)
+  if (prevRoute.studyId !== studyId || prevRoute.algoName !== algoName) {
+    setPrevRoute({ studyId, algoName })
+    setStudy(null)
+    setAlgorithm(null)
+    setError(null)
+    setLoading(!!studyId)
+  }
 
   useEffect(() => {
     if (studyId) {
-      setLoading(true)
       fetchStudy(studyId)
         .then((data) => {
           setStudy(data)

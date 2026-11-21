@@ -1,6 +1,6 @@
 import { describe, expect, it, vi, beforeEach } from 'vitest'
 import { renderToString } from 'react-dom/server'
-import { StaticRouter } from 'react-router-dom/server'
+import { StaticRouter } from 'react-router-dom'
 import StatusDashboard, { buildDashboardMetrics } from './StatusDashboard'
 import type { ApiStats, StudySummary } from '../api/client'
 
